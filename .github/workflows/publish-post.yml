@@ -34,4 +34,4 @@ jobs:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: | 
         python JewishHistoryBot.py
-        echo post.md >> $GITHUB_STEP_SUMMARY
+        cat post.md >> $GITHUB_STEP_SUMMARY
