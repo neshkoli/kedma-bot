@@ -7,6 +7,7 @@ from datetime import date
 from convertdate import hebrew
 from openai import OpenAI
 import requests
+import re
 
 class TelegramBot:
     def __init__(self, token):
@@ -14,14 +15,6 @@ class TelegramBot:
         self.api_url = f"https://api.telegram.org/bot{token}/"
 
     def send_message(self, chat_id, text):
-        """
-        Send a message to a channel
-        Args:
-            chat_id (str): Channel username (including @)
-            text (str): Message to send
-        Returns:
-            dict: Telegram API response
-        """
         url = self.api_url + "sendMessage"
         payload = {
             "chat_id": chat_id,
@@ -76,7 +69,7 @@ def create_post_from_event(event):
         - Markdown
         - Rich Hebrew language with emojis and bold for the main subjects
         - Storytelling style
-        - 3-4 paragraphs
+        - 3 paragraphs
         - Educational tone
         - Specific dates/names
         - Historical accuracy
@@ -102,7 +95,7 @@ def create_post_from_event(event):
         )
         
         # Debug print to see the actual response type
-        print(type(completion))
+        # print(type(completion))
         
         # Try different methods to convert to dictionary
         try:
@@ -116,7 +109,7 @@ def create_post_from_event(event):
                     return obj
 
             response_dict = object_to_dict(completion)
-            print(json.dumps(response_dict, indent=2))
+            # print(json.dumps(response_dict, indent=2))
             
             # Return the content
             return completion.choices[0].message.content.strip()
@@ -136,6 +129,13 @@ def create_post_from_event(event):
         print(f"API call error: {e}")
         raise
 
+def replace_headers_with_bold(text):
+    # Replace headers starting with # or ## with bold text
+    text = re.sub(r'^(# .+)$', r'*\1*', text, flags=re.MULTILINE)
+    text = re.sub(r'^(## .+)$', r'*\1*', text, flags=re.MULTILINE)
+    text = re.sub(r'^(### .+)$', r'*\1*', text, flags=re.MULTILINE)
+    return text
+
 def publish_to_telegram(post_str):
     TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
     CHANNEL = "@kedmachat"
@@ -148,11 +148,12 @@ def main():
     hebrew_day, hebrew_month = get_today_hebrew_date(datetime.now())
     events = read_hebrew_events()
     event = find_random_event(events, hebrew_day, hebrew_month)
-    print(event)
+    print(event['event'])
     
     if event:
         post = create_post_from_event(event['event'])
         post = post.replace('```markdown', '').replace('```', '')
+        post = replace_headers_with_bold(post)
         post_str = f"*היום {hebrew_day} {hebrew_month}*\n{post}\n\n_בוט ה AI של קדמא_"
         with open("post.md", "w", encoding="utf-8") as f:
             f.write(post_str + "\n")

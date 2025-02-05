@@ -3,7 +3,7 @@ name: Daily API Script
 on:
   schedule:
     # This runs at 00:00 UTC every day
-    - cron: '0 7 * * 0-5'
+    - cron: '0 4 * * 0-5'
 
   # Optional: Allow manual trigger
   workflow_dispatch:
@@ -34,4 +34,4 @@ jobs:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: | 
         python JewishHistoryAPI.py
-        echo post.md >> $GITHUB_SUMMARY
+        echo post.md >> $GITHUB_STEP_SUMMARY
