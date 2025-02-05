@@ -10,11 +10,6 @@ import requests
 
 class TelegramBot:
     def __init__(self, token):
-        """
-        Initialize the bot with your token
-        Args:
-            token (str): Your Telegram bot token from BotFather
-        """
         self.token = token
         self.api_url = f"https://api.telegram.org/bot{token}/"
 
@@ -147,10 +142,7 @@ def publish_to_telegram(post_str):
     
     # Initialize bot
     bot = TelegramBot(TELEGRAM_BOT_TOKEN)
-    result = bot.send_message(CHANNEL, post_str)
-    
-    # Print the result
-    print(result)
+    return bot.send_message(CHANNEL, post_str)
 
 def main():
     hebrew_day, hebrew_month = get_today_hebrew_date(datetime.now())
@@ -160,11 +152,12 @@ def main():
     
     if event:
         post = create_post_from_event(event['event'])
-        print(post)
+        post = post.replace('```markdown', '').replace('```', '')
         post_str = f"*היום {hebrew_day} {hebrew_month}*\n{post}\n\n_בוט ה AI של קדמא_"
         with open("post.md", "w", encoding="utf-8") as f:
             f.write(post_str + "\n")
-        # publish_to_telegram(post_str)
+        result = publish_to_telegram(post_str)
+        print(result)
 
     else:
         print(f"No event found for {hebrew_day} {hebrew_month}")
