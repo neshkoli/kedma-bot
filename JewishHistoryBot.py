@@ -142,8 +142,7 @@ def create_post_from_event(event):
         raise
 
 def publish_to_telegram(post_str):
-    TELEGRAM_BOT_TOKEN = '7511359763:AAHJRLz45ft3Zu3NdnrJK1MWFuR6D3y-nq4'
-    # BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+    TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
     CHANNEL = "@kedmachat"
     
     # Initialize bot
