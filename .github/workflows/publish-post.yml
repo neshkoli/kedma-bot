@@ -3,7 +3,7 @@ name: Daily API Script
 on:
   schedule:
     # This runs at 00:00 UTC every day
-    - cron: '0 0 * * *'
+    - cron: '0 7 * * 0-5'
 
   # Optional: Allow manual trigger
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install requests convertdate openai httpx
+        pip install -r requirements.txt
     
     - name: Run Python Script
       env:
