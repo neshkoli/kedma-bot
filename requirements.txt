@@ -2,4 +2,7 @@ datetime
 requests
 convertdate
 openai
-httpx
+httpx==0.23.0  # Specify a compatible version
+h11==0.14.0    # Ensure compatibility with httpcore
+exceptiongroup==1.2.2  # Ensure compatibility with anyio
+pydantic==1.10.7       # Specify a compatible version for your usage
