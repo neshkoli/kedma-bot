@@ -4,5 +4,9 @@ convertdate
 openai
 httpx
 h11
+bs4
+typing
+re
+json
 exceptiongroup
 pydantic

@@ -74,24 +74,16 @@ def get_all_hebrew_months_events():
     """
     Get events for all Hebrew months
     """
-    months_urls = {
-        'תשרי': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/תשרי',
-        'חשון': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/חשוון',
-        'כסלו': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/כסלו',
-        'טבת': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/טבת',
-        'שבט': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/שבט',
-        'אדר': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/אדר',
-        'ניסן': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/ניסן',
-        'אייר': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/אייר',
-        'סיון': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/סיוון',
-        'תמוז': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/תמוז',
-        'אב': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/אב',
-        'אלול': 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/אלול'
-    }
-    
+    hebrew_months = [
+        'ניסן', 'אייר', 'סיוון', 'תמוז', 'אב', 'אלול',
+        'תשרי', 'חשוון', 'כסלו', 'טבת', 'שבט', 'אדר' ]
+
+    url_str = 'https://he.wikipedia.org/wiki/ויקיפדיה:אירועים_בלוח_העברי/'
     all_events = []
     
-    for month_name, url in months_urls.items():
+    # for month_name, url in months_urls.items():
+    for month_name in hebrew_months:
+        url = f"{url_str}{month_name}"
         print(f"Fetching events for {month_name}...")
         month_events = get_month_events(month_name, url)
         
@@ -148,7 +140,7 @@ def save_events_to_file(events, filename='hebrew_events.json'):
                     filtered_events.append(event)
 
         with open(filename, 'w', encoding='utf-8') as f:
-            hebrew_month_order = ['תשרי', 'חשון', 'כסלו', 'טבת', 'שבט', 'אדר', 'ניסן', 'אייר', 'סיון', 'תמוז', 'אב', 'אלול']
+            hebrew_month_order = ['תשרי', 'חשוון', 'כסלו', 'טבת', 'שבט', 'אדר', 'ניסן', 'אייר', 'סיוון', 'תמוז', 'אב', 'אלול']
             filtered_events.sort(key=lambda x: (hebrew_month_order.index(x['month']), x['day']))
 
             json.dump(filtered_events, f, ensure_ascii=False, indent=4)
