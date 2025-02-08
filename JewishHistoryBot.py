@@ -163,79 +163,6 @@ def summarize_with_openai(text: str, ai: str = 'deepseek') -> Dict[str, Any]:
         print(f"API Error: {e}")
         return {'summary': '', 'tokens_used': 0}
 
-def create_post_from_event(event):
-    prompt = f'''Create a historical post in Hebrew about {event} . 
-        Required elements (~240 chars):
-        - Event/person details
-        - 3-4 historical facts
-        - Key figures
-        - Quotes if relevant
-        - Period context
-        - Location
-        - Historical impact
-        - Jewish tradition link
-
-        Format:
-        - Markdown
-        - Rich Hebrew language with emojis and bold for the main subjects
-        - Storytelling style
-        - 3 paragraphs
-        - Educational tone
-        - Specific dates/names
-        - Historical accuracy
-        - Primary sources'''
-
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    model = "gpt-4o"
-    # client = OpenAI(api_key=os.getenv('DEEPSEEK_API_KEY'), base_url="https://api.deepseek.com", http_client=httpx.Client(verify=False))
-    # model = "deepseek-chat"
-
-    try:
-        # Add error handling and timeout
-        completion = client.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "system", "content": "You are a historian specializing in Jewish history"},
-                {"role": "user", "content": prompt}
-            ],
-            timeout=30.0  # Add a timeout to prevent hanging
-        )
-        
-        # Debug print to see the actual response type
-        print(type(completion))
-        
-        # Try different methods to convert to dictionary
-        try:
-            # Method 1: Use object_to_dict function
-            def object_to_dict(obj):
-                if hasattr(obj, '__dict__'):
-                    return {key: object_to_dict(value) for key, value in vars(obj).items()}
-                elif isinstance(obj, (list, tuple)):
-                    return [object_to_dict(item) for item in obj]
-                else:
-                    return obj
-
-            response_dict = object_to_dict(completion)
-            print(json.dumps(response_dict, indent=2))
-            
-            # Return the content
-            return completion.choices[0].message.content.strip()
-        
-        except Exception as convert_error:
-            print(f"Conversion error: {convert_error}")
-            
-            # Fallback method
-            try:
-                # If the above fails, try to manually extract content
-                return completion.choices[0].message.content.strip()
-            except Exception as extract_error:
-                print(f"Content extraction error: {extract_error}")
-                raise
-
-    except Exception as e:
-        print(f"API call error: {e}")
-        raise
-
 def replace_headers_with_bold(text):
     # Replace headers starting with # or ## with bold text
     text = re.sub(r'^(### .+)$', r'*\1*', text, flags=re.MULTILINE)
@@ -269,7 +196,13 @@ def main():
             post = summary_result['summary']
 
             post = replace_headers_with_bold(post)
-            post_str = f"* היום {hebrew_day} {hebrew_month} *\n* {event['event']} *\n{post}\n\n_בוט ה AI של קדמא_"
+            post_str = (
+                f"* היום {hebrew_day} {hebrew_month} *\n"
+                f"* {event['event']} *\n"
+                f"{post}\n\n"
+                f"[למידע נוסף]({event['subject_url']})\n\n"
+                "_בוט ה AI של קדמא_"
+            )
 
             result = publish_to_telegram(post_str)
             print(result)
