@@ -33,8 +33,7 @@ def get_today_hebrew_date(today):
     # Hebrew month names
     hebrew_months = [
         'ניסן', 'אייר', 'סיון', 'תמוז', 'אב', 'אלול',
-        'תשרי', 'חשוון', 'כסלו', 'טבת', 'שבט', 'אדר'
-    ]
+        'תשרי', 'חשוון', 'כסלו', 'טבת', 'שבט', 'אדר' ]
     hebrew_days = ['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י', 'יא', 'יב', 'יג', 'יד', 'טו', 'טז', 'יז', 'יח', 'יט', 'כ', 'כא', 'כב', 'כג', 'כד', 'כה', 'כו', 'כז', 'כח', 'כט', 'ל']
     hebrew_day = f"{hebrew_days[heb_day - 1]}"
     hebrew_month = f"{hebrew_months[heb_month - 1]}"
@@ -75,18 +74,15 @@ def create_post_from_event(event):
         - Historical accuracy
         - Primary sources'''
 
-    # client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    http_client = httpx.Client(verify=False)
-    client = OpenAI(
-        api_key=os.getenv('DEEPSEEK_API_KEY'), 
-        base_url="https://api.deepseek.com", 
-        http_client=http_client
-    )
+    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    model = "gpt-4o"
+    # client = OpenAI(api_key=os.getenv('DEEPSEEK_API_KEY'), base_url="https://api.deepseek.com", http_client=httpx.Client(verify=False))
+    # model = "deepseek-chat"
 
     try:
         # Add error handling and timeout
         completion = client.chat.completions.create(
-            model="deepseek-chat",
+            model=model,
             messages=[
                 {"role": "system", "content": "You are a historian specializing in Jewish history"},
                 {"role": "user", "content": prompt}
@@ -95,7 +91,7 @@ def create_post_from_event(event):
         )
         
         # Debug print to see the actual response type
-        # print(type(completion))
+        print(type(completion))
         
         # Try different methods to convert to dictionary
         try:
@@ -109,7 +105,7 @@ def create_post_from_event(event):
                     return obj
 
             response_dict = object_to_dict(completion)
-            # print(json.dumps(response_dict, indent=2))
+            print(json.dumps(response_dict, indent=2))
             
             # Return the content
             return completion.choices[0].message.content.strip()
@@ -131,9 +127,10 @@ def create_post_from_event(event):
 
 def replace_headers_with_bold(text):
     # Replace headers starting with # or ## with bold text
-    text = re.sub(r'^(# .+)$', r'*\1*', text, flags=re.MULTILINE)
-    text = re.sub(r'^(## .+)$', r'*\1*', text, flags=re.MULTILINE)
     text = re.sub(r'^(### .+)$', r'*\1*', text, flags=re.MULTILINE)
+    text = re.sub(r'^(## .+)$', r'*\1*', text, flags=re.MULTILINE)
+    text = re.sub(r'^(# .+)$', r'*\1*', text, flags=re.MULTILINE)
+    
     return text
 
 def publish_to_telegram(post_str):

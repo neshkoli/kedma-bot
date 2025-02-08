@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import re
 import urllib3
 import json
+import urllib.parse
+from convertdate import hebrew
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -39,22 +41,29 @@ def get_month_events(month_name, url):
         
         for row in rows:
             date_cell = row.find('td', style=lambda x: x and 'text-align:center' in x)
-            content_cell = row.find('td', style=lambda x: x and 'text-align:right' in x)
-            
+            content_cell = row.find('td', style=lambda x: x and 'text-align:right' in x)        
             if date_cell and content_cell:
                 date_link = date_cell.find('a')
                 if date_link and date_link.get('title'):
                     date = date_link.get('title')
-                    
                     events_list = content_cell.find('ul')
                     if events_list:
                         for event in events_list.find_all('li'):
-                            event_text = clean_event_text(event.get_text().strip())
-                            events.append({
-                                'month': month_name,
-                                'date': date,
-                                'event': event_text
-                            })
+                            b_tag = event.find('b')
+                            if b_tag:
+                                tag=b_tag.find('a')
+                                if tag:
+                                    subject_url = tag.get('href')
+                                    subject_url = f'https://he.wikipedia.org{urllib.parse.unquote(subject_url)}'  # Decode the URL to Hebrew text
+                                    subject = tag.get('title')
+                                    event_text = clean_event_text(event.get_text().strip())
+                                    events.append({
+                                        'month': month_name,
+                                        'date': date,
+                                        'event': event_text,
+                                        'subject_url': subject_url,
+                                        'subject': subject
+                                    })
         
         return events
     
@@ -93,28 +102,49 @@ def get_all_hebrew_months_events():
     
     return all_events
 
-def save_events_to_file(events, filename="hebrew_events.json"):
+def gematria(hebrew_year):
     """
-    Save events to a JSON file
+    Calculate the gematria value of a Hebrew year.
     """
-    if not isinstance(events, list):
-        print(events)
-        return
+    gematria_map = {
+        'א': 1, 'ב': 2, 'ג': 3, 'ד': 4, 'ה': 5, 'ו': 6, 'ז': 7, 'ח': 8, 'ט': 9,
+        'י': 10, 'כ': 20, 'ל': 30, 'מ': 40, 'נ': 50, 'ס': 60, 'ע': 70, 'פ': 80, 'צ': 90,
+        'ק': 100, 'ר': 200, 'ש': 300, 'ת': 400
+    }
+    value = 0
+    start_index = 0
 
+    # Check if the second character is a '
+    if len(hebrew_year) > 1 and hebrew_year[1] == "'":
+        value += (ord(hebrew_year[0]) - ord('א') + 1) * 1000
+        start_index = 2  # Start the loop from the 3rd character
+    
+    for char in hebrew_year[start_index:]:
+        if char in gematria_map:  # Only process characters that exist in the map
+            value += gematria_map[char]
+
+    return value
+
+def save_events_to_file(events, filename='hebrew_events.json'):
+    filtered_events = []
     try:
-        filtered_events = []
         for event in events:
-            event_text = event.get('event', '')
-            if event_text:
-                first_word = event_text.split()[0]
-                # Check if the first word matches the Hebrew year format
-                if re.match(r'^[א-ת]\'[א-ת]{1,3}"[א-ת]$', first_word):
-                    event['year'] = first_word
-                    event['event'] = ' '.join(event_text.split()[1:])  # Remove the year from the event text
-                    day = event['date'].split()[0]  # Extract the Hebrew day
-                    day = day.replace('"', '').replace("'", "")  # Remove " and ' characters
-                    event['day'] = day
-                    del event['date']  # Remove the original 'date' field
+            event_text = event['event']
+            first_word = event_text.split()[0]
+            # Check if the first word matches the Hebrew year format
+            if re.match(r'^[א-ת]\'[א-ת]{1,3}"[א-ת]$', first_word):
+                event['year'] = first_word
+                heb_year = event['year']
+                # Convert Hebrew year to Gregorian year
+                gregorian_year = hebrew.to_gregorian(gematria(heb_year), 1, 1)[0]  # Convert using the first day of the Hebrew year
+                event['gregorian_year'] = gregorian_year
+                event['event'] = ' '.join(event_text.split()[1:])  # Remove the year from the event text
+                event['event'] = event['event'][2:]  # Remove the leading '- '
+                day = event['date'].split()[0]  # Extract the Hebrew day
+                day = day.replace('"', '').replace("'", "")  # Remove " and ' characters
+                event['day'] = day
+                del event['date']  # Remove the original 'date' field
+                if gregorian_year > -600 and gregorian_year < 1910:  # Filter out events outside this range
                     filtered_events.append(event)
 
         with open(filename, 'w', encoding='utf-8') as f:
@@ -127,7 +157,5 @@ def save_events_to_file(events, filename="hebrew_events.json"):
 
 # Run the scraper
 if __name__ == "__main__":
-    import prettytable  # Import needed for table styling
     all_events = get_all_hebrew_months_events()
-#    display_events_table(all_events)
     save_events_to_file(all_events)
