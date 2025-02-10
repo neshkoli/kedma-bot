@@ -1,4 +1,4 @@
-name: Daily API Script
+name: Create post
 
 on:
   schedule:
@@ -35,3 +35,4 @@ jobs:
       run: | 
         python JewishHistoryBot.py
         cat post.md >> $GITHUB_STEP_SUMMARY
+        cat summary.md >> $GITHUB_STEP_SUMMARY
