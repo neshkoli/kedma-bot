@@ -19,11 +19,38 @@
     },
     {
         "month": "תשרי",
+        "event": "תחילת הנהגת לימוד התלמוד הבבלי בסדר הדף היומי.",
+        "subject_url": "https://he.wikipedia.org/wiki/הדף_היומי",
+        "subject": "הדף היומי",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "א"
+    },
+    {
+        "month": "תשרי",
         "event": "נולד אביגדור המאירי, סופר ומשורר עברי.",
         "subject_url": "https://he.wikipedia.org/wiki/אביגדור_המאירי",
         "subject": "אביגדור המאירי",
         "year": "ה'תרנ\"א",
         "gregorian_year": 1891,
+        "day": "ב"
+    },
+    {
+        "month": "תשרי",
+        "event": "נפטר רבי ישראל פרלוב, \"הינוקא מסטולין\", אדמו\"ר בחסידות קרלין.",
+        "subject_url": "https://he.wikipedia.org/wiki/חסידות_קרלין",
+        "subject": "חסידות קרלין",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "ב"
+    },
+    {
+        "month": "תשרי",
+        "event": "נולד מרדכי בן-פורת, פעיל ציוני, חבר הכנסת ושר.",
+        "subject_url": "https://he.wikipedia.org/wiki/מרדכי_בן-פורת",
+        "subject": "מרדכי בן-פורת",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
         "day": "ב"
     },
     {
@@ -82,6 +109,15 @@
     },
     {
         "month": "תשרי",
+        "event": "נולד אליהו לנקין, מפקד האצ\"ל בירושלים והאונייה אלטלנה.",
+        "subject_url": "https://he.wikipedia.org/wiki/אליהו_לנקין",
+        "subject": "אליהו לנקין",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "ה"
+    },
+    {
+        "month": "תשרי",
         "event": "נפטר רבי בנימין וולף איגר, רב וראש ישיבה בברסלאו, צילץ, לייפציג ולייפניק, דודו ורבו של רבי עקיבא איגר",
         "subject_url": "https://he.wikipedia.org/wiki/בנימין_וולף_איגר",
         "subject": "בנימין וולף איגר",
@@ -124,6 +160,24 @@
         "year": "ה'תקס\"ג",
         "gregorian_year": 1803,
         "day": "ז"
+    },
+    {
+        "month": "תשרי",
+        "event": "נפטר מאיר דיזנגוף , ראש העיר הראשון של תל אביב",
+        "subject_url": "https://he.wikipedia.org/wiki/מאיר_דיזנגוף",
+        "subject": "מאיר דיזנגוף",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
+        "day": "ז"
+    },
+    {
+        "month": "תשרי",
+        "event": "הטבח בטבריה: בעת מאורעות תרצ\"ט, פורעים ערבים התקיפו את תושבי קריית שמואל בטבריה, ורצחו 19 יהודים",
+        "subject_url": "https://he.wikipedia.org/wiki/הטבח_בטבריה",
+        "subject": "הטבח בטבריה",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "ח"
     },
     {
         "month": "תשרי",
@@ -172,6 +226,15 @@
     },
     {
         "month": "תשרי",
+        "event": "נולד אלי ויזל , סופר אמריקאי יהודי, ניצול שואה",
+        "subject_url": "https://he.wikipedia.org/wiki/אלי_ויזל",
+        "subject": "אלי ויזל",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "טז"
+    },
+    {
+        "month": "תשרי",
         "event": "נפטר שמואל דוד לוצאטו (שד\"ל), פרשן מקרא, בלשן עברי, מתרגם ופילוסוף",
         "subject_url": "https://he.wikipedia.org/wiki/שמואל_דוד_לוצאטו",
         "subject": "שמואל דוד לוצאטו",
@@ -187,6 +250,24 @@
         "year": "ה'תר\"ך",
         "gregorian_year": 1840,
         "day": "יא"
+    },
+    {
+        "month": "תשרי",
+        "event": "נולד הרב דוד משה רוזנבוים, האדמו\"ר מקרעטשניף",
+        "subject_url": "https://he.wikipedia.org/wiki/דוד_משה_רוזנבוים",
+        "subject": "דוד משה רוזנבוים",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "יא"
+    },
+    {
+        "month": "תשרי",
+        "event": "נולד הרב עובדיה יוסף הראשון לציון הרב הראשי הספרדי וראש מועצת חכמי התורה.",
+        "subject_url": "https://he.wikipedia.org/wiki/עובדיה_יוסף",
+        "subject": "עובדיה יוסף",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "יב"
     },
     {
         "month": "תשרי",
@@ -316,6 +397,15 @@
     },
     {
         "month": "תשרי",
+        "event": "נולד דן פגיס, משורר ומתרגם עברי וחוקר של שירה יהודית.",
+        "subject_url": "https://he.wikipedia.org/wiki/דן_פגיס",
+        "subject": "דן פגיס",
+        "year": "ה'תרצ\"א",
+        "gregorian_year": 1931,
+        "day": "כד"
+    },
+    {
+        "month": "תשרי",
         "event": "נפטר רבי לוי יצחק מברדיצ'ב.",
         "subject_url": "https://he.wikipedia.org/wiki/לוי_יצחק_מברדיצ'ב",
         "subject": "לוי יצחק מברדיצ'ב",
@@ -339,6 +429,24 @@
         "subject": "הגימנסיה העברית הרצליה",
         "year": "ה'תרס\"ו",
         "gregorian_year": 1906,
+        "day": "כה"
+    },
+    {
+        "month": "תשרי",
+        "event": "נתכנסה אספת הנבחרים הראשונה ליהודי ארץ-ישראל.",
+        "subject_url": "https://he.wikipedia.org/wiki/אספת_הנבחרים",
+        "subject": "אספת הנבחרים",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "כה"
+    },
+    {
+        "month": "תשרי",
+        "event": "הקמת המחנות העולים, תנועת נוער חלוצית ארץ-ישראלית.",
+        "subject_url": "https://he.wikipedia.org/wiki/המחנות_העולים",
+        "subject": "המחנות העולים",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
         "day": "כה"
     },
     {
@@ -379,6 +487,15 @@
     },
     {
         "month": "תשרי",
+        "event": "בריטניה מפרסמת את הספר הלבן השני.",
+        "subject_url": "https://he.wikipedia.org/wiki/הספר_הלבן_השני",
+        "subject": "הספר הלבן השני",
+        "year": "ה'תרצ\"א",
+        "gregorian_year": 1931,
+        "day": "כח"
+    },
+    {
+        "month": "תשרי",
         "event": "נפטר רבי יצחק אברבנאל , מדינאי יהודי, פילוסוף ופרשן מקרא",
         "subject_url": "https://he.wikipedia.org/wiki/יצחק_אברבנאל",
         "subject": "יצחק אברבנאל",
@@ -393,6 +510,15 @@
         "subject": "אברהם דוד מבוטשאטש",
         "year": "ה'תר\"א",
         "gregorian_year": 1841,
+        "day": "כט"
+    },
+    {
+        "month": "תשרי",
+        "event": "נפטר רבי שמואל צבי דנציגר, האדמו\"ר השלישי בשושלת חסידות אלכסנדר",
+        "subject_url": "https://he.wikipedia.org/wiki/שמואל_צבי_דנציגר",
+        "subject": "שמואל צבי דנציגר",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
         "day": "כט"
     },
     {
@@ -456,6 +582,15 @@
         "subject": "אוטואמנציפציה!",
         "year": "ה'תרמ\"ג",
         "gregorian_year": 1883,
+        "day": "ד"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד יגאל אלון, מפקד הפלמ\"ח, מראשי מפלגת העבודה ושר בממשלות ישראל.",
+        "subject_url": "https://he.wikipedia.org/wiki/יגאל_אלון",
+        "subject": "יגאל אלון",
+        "year": "ה'תרע\"ט",
+        "gregorian_year": 1919,
         "day": "ד"
     },
     {
@@ -559,6 +694,51 @@
     },
     {
         "month": "חשוון",
+        "event": "נולד ארתור מילר, מחזאי אמריקאי-יהודי, זוכה פרס פוליצר.",
+        "subject_url": "https://he.wikipedia.org/wiki/ארתור_מילר",
+        "subject": "ארתור מילר",
+        "year": "ה'תרע\"ו",
+        "gregorian_year": 1916,
+        "day": "ט"
+    },
+    {
+        "month": "חשוון",
+        "event": "קרב באר שבע – הכוחות הבריטיים כובשים את באר שבע מידי הצבא העות'מאני במסגרת מלחמת העולם הראשונה",
+        "subject_url": "https://he.wikipedia.org/wiki/קרב_באר_שבע",
+        "subject": "קרב באר שבע",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "טו"
+    },
+    {
+        "month": "חשוון",
+        "event": "מתרחש ליל הבדולח בגרמניה הנאצית",
+        "subject_url": "https://he.wikipedia.org/wiki/ליל_הבדולח",
+        "subject": "ליל הבדולח",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "טז"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד חיים חפר, פזמונאי ישראלי.",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_חפר",
+        "subject": "חיים חפר",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
+        "day": "י"
+    },
+    {
+        "month": "חשוון",
+        "event": "נפטר הרב רפאל אהרן בן שמעון, רבה הראשי של קהיר ונשיא בית הדין הרבני בעיר.",
+        "subject_url": "https://he.wikipedia.org/wiki/רפאל_אהרן_בן_שמעון",
+        "subject": "רפאל אהרן בן שמעון",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "י"
+    },
+    {
+        "month": "חשוון",
         "event": "נפטר הרב מנחם נחום טברסקי בעל \"מאור עיניים\" מייסד חסידות צ'רנוביל",
         "subject_url": "https://he.wikipedia.org/wiki/מנחם_נחום_טברסקי_(הראשון)",
         "subject": "מנחם נחום טברסקי (הראשון)",
@@ -573,6 +753,15 @@
         "subject": "אברהם וינברג (הראשון)",
         "year": "ה'תרמ\"ד",
         "gregorian_year": 1884,
+        "day": "יא"
+    },
+    {
+        "month": "חשוון",
+        "event": "נפטר הרב יהודה לייב חסמן מראשי תנועת המוסר בדור השלישי, רב וראש ישיבה בליטא ומנהלה הרוחני של ישיבת חברון כנסת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/יהודה_לייב_חסמן",
+        "subject": "יהודה לייב חסמן",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
         "day": "יא"
     },
     {
@@ -631,11 +820,56 @@
     },
     {
         "month": "חשוון",
+        "event": "נולד יוסי גרבר, שחקן ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/יוסי_גרבר",
+        "subject": "יוסי גרבר",
+        "year": "ה'תרצ\"ד",
+        "gregorian_year": 1934,
+        "day": "יג"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד הרב אהרן יהודה לייב שטינמן, מנהיג הציבור החרדי-ליטאי.",
+        "subject_url": "https://he.wikipedia.org/wiki/אהרן_יהודה_לייב_שטינמן",
+        "subject": "אהרן יהודה לייב שטינמן",
+        "year": "ה'תרע\"ד",
+        "gregorian_year": 1914,
+        "day": "יד"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד יצחק שמיר , ממפקדי הלח\"י וראש הממשלה השביעי של מדינת ישראל.",
+        "subject_url": "https://he.wikipedia.org/wiki/יצחק_שמיר",
+        "subject": "יצחק שמיר",
+        "year": "ה'תרע\"ו",
+        "gregorian_year": 1916,
+        "day": "יד"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד הרב אריה משה אליהו קפלן, רב אורתודוקסי יהודי-אמריקני",
+        "subject_url": "https://he.wikipedia.org/wiki/אריה_קפלן",
+        "subject": "אריה קפלן",
+        "year": "ה'תרצ\"ה",
+        "gregorian_year": 1935,
+        "day": "יד"
+    },
+    {
+        "month": "חשוון",
         "event": "בנימין זאב הרצל, \"חוזה המדינה\", מבקר בירושלים ונפגש עם הקיסר הגרמני וילהלם השני ליד מקווה ישראל, במטרה לקדם את רעיון \"ארץ ישראל ליהודים\"",
         "subject_url": "https://he.wikipedia.org/wiki/בנימין_זאב_הרצל",
         "subject": "בנימין זאב הרצל",
         "year": "ה'תרנ\"ט",
         "gregorian_year": 1899,
+        "day": "יז"
+    },
+    {
+        "month": "חשוון",
+        "event": "ממשלת בריטניה מפרסמת את \"הצהרת בלפור\" המבטיחה לתמוך בהקמת בית לאומי לעם היהודי בארץ ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/הצהרת_בלפור",
+        "subject": "הצהרת בלפור",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
         "day": "יז"
     },
     {
@@ -658,11 +892,38 @@
     },
     {
         "month": "חשוון",
+        "event": "נפטר הרב דוד צבי הופמן , פרשן מקרא ופוסק, ראש בית המדרש לרבנים בברלין וממנהיגי \"תורה עם דרך ארץ\"",
+        "subject_url": "https://he.wikipedia.org/wiki/דוד_צבי_הופמן",
+        "subject": "דוד צבי הופמן",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "יט"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד חיים בר-לב, הרמטכ\"ל השמיני, חבר הכנסת ושר בממשלת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_בר-לב",
+        "subject": "חיים בר-לב",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "יט"
+    },
+    {
+        "month": "חשוון",
         "event": "נולד רבי שלום דובער שניאורסון (אדמו\"ר הרש\"ב) , האדמו\"ר החמישי בשושלת חסידות חב\"ד",
         "subject_url": "https://he.wikipedia.org/wiki/שלום_דובער_שניאורסון",
         "subject": "שלום דובער שניאורסון",
         "year": "ה'תרכ\"א",
         "gregorian_year": 1861,
+        "day": "כ"
+    },
+    {
+        "month": "חשוון",
+        "event": "נולד אריה (לובה) אליאב, פוליטיקאי ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/אריה_אליאב",
+        "subject": "אריה אליאב",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
         "day": "כ"
     },
     {
@@ -690,6 +951,33 @@
         "subject": "משה לימא",
         "year": "ה'תי\"ז",
         "gregorian_year": 1657,
+        "day": "כב"
+    },
+    {
+        "month": "חשוון",
+        "event": "תחילת מהפכת אוקטובר ברוסיה הקיסרית",
+        "subject_url": "https://he.wikipedia.org/wiki/מהפכת_אוקטובר",
+        "subject": "מהפכת אוקטובר",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "כב"
+    },
+    {
+        "month": "חשוון",
+        "event": "כוחותיו של הגנרל אלנבי כובשים את עזה בתום קרב עזה השלישי",
+        "subject_url": "https://he.wikipedia.org/wiki/עזה",
+        "subject": "עזה",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "כב"
+    },
+    {
+        "month": "חשוון",
+        "event": "נפטר רבי יששכר דוב רוקח , האדמו\"ר השלישי בשושלת בעלזא",
+        "subject_url": "https://he.wikipedia.org/wiki/ישכר_דב_רוקח_(הזקן)",
+        "subject": "ישכר דב רוקח (הזקן)",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
         "day": "כב"
     },
     {
@@ -736,6 +1024,15 @@
         "year": "ה'תרס\"א",
         "gregorian_year": 1901,
         "day": "כג"
+    },
+    {
+        "month": "חשוון",
+        "event": "נפטר הברון רוטשילד, תומך עיקרי ביישוב היהודי בארץ ישראל בתקופת העלייה הראשונה",
+        "subject_url": "https://he.wikipedia.org/wiki/הברון_רוטשילד",
+        "subject": "הברון רוטשילד",
+        "year": "ה'תרצ\"ה",
+        "gregorian_year": 1935,
+        "day": "כד"
     },
     {
         "month": "חשוון",
@@ -829,11 +1126,29 @@
     },
     {
         "month": "כסלו",
+        "event": "נוסד העיתון פלסטיין פוסט, שבשנת ה'תש\"י שינה שמו ל-The Jerusalem Post",
+        "subject_url": "https://he.wikipedia.org/wiki/פלסטיין_פוסט",
+        "subject": "פלסטיין פוסט",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "ב"
+    },
+    {
+        "month": "כסלו",
         "event": "רבי יעקב יהושע פלק ניצל מפיצוץ מחסן אבק שרפה שהרג את בני משפחתו, ולזכר ההצלה מחליט לחבר את הספר פני יהושע",
         "subject_url": "https://he.wikipedia.org/wiki/יעקב_יהושע_פלק",
         "subject": "יעקב יהושע פלק",
         "year": "ה'תס\"ג",
         "gregorian_year": 1703,
+        "day": "ג"
+    },
+    {
+        "month": "כסלו",
+        "event": "נולדה דליה רביקוביץ, משוררת ישראלית",
+        "subject_url": "https://he.wikipedia.org/wiki/דליה_רביקוביץ",
+        "subject": "דליה רביקוביץ",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
         "day": "ג"
     },
     {
@@ -910,6 +1225,15 @@
     },
     {
         "month": "כסלו",
+        "event": "נוסד הג'וינט, ועד הסיוע המיוחד של יהדות ארצות הברית",
+        "subject_url": "https://he.wikipedia.org/wiki/הג'וינט",
+        "subject": "הג'וינט",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "ט"
+    },
+    {
+        "month": "כסלו",
         "event": "גזרות אנטיוכוס: שליחי אנטיוכוס מחללים את בית המקדש השני ומציבים פסלי עבודה זרה על המזבח",
         "subject_url": "https://he.wikipedia.org/wiki/גזרות_אנטיוכוס",
         "subject": "גזרות אנטיוכוס",
@@ -924,6 +1248,15 @@
         "subject": "חיים מאיר הגר",
         "year": "ה'תרמ\"ח",
         "gregorian_year": 1888,
+        "day": "טו"
+    },
+    {
+        "month": "כסלו",
+        "event": "מוקמת הסוכנות היהודית",
+        "subject_url": "https://he.wikipedia.org/wiki/הסוכנות_היהודית",
+        "subject": "הסוכנות היהודית",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
         "day": "טו"
     },
     {
@@ -955,11 +1288,47 @@
     },
     {
         "month": "כסלו",
+        "event": "ייסוד הרצליה",
+        "subject_url": "https://he.wikipedia.org/wiki/הרצליה",
+        "subject": "הרצליה",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "טז"
+    },
+    {
+        "month": "כסלו",
+        "event": "נולדה שולמית אלוני, פוליטיקאית ישראלית",
+        "subject_url": "https://he.wikipedia.org/wiki/שולמית_אלוני",
+        "subject": "שולמית אלוני",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "טז"
+    },
+    {
+        "month": "כסלו",
+        "event": "נפטר הרב משה מרדכי אפשטיין, ראש ישיבת חברון",
+        "subject_url": "https://he.wikipedia.org/wiki/משה_מרדכי_אפשטיין",
+        "subject": "משה מרדכי אפשטיין",
+        "year": "ה'תרצ\"ד",
+        "gregorian_year": 1934,
+        "day": "י"
+    },
+    {
+        "month": "כסלו",
         "event": "נולד ברוך שפינוזה , פילוסוף יהודי",
         "subject_url": "https://he.wikipedia.org/wiki/ברוך_שפינוזה",
         "subject": "ברוך שפינוזה",
         "year": "ה'שצ\"ג",
         "gregorian_year": 1633,
+        "day": "יא"
+    },
+    {
+        "month": "כסלו",
+        "event": "נפטר הרב יחיא קאפח, מרבני תימן ומקים תנועת הדרדעים",
+        "subject_url": "https://he.wikipedia.org/wiki/יחיא_קאפח",
+        "subject": "יחיא קאפח",
+        "year": "ה'תרצ\"ב",
+        "gregorian_year": 1932,
         "day": "יא"
     },
     {
@@ -991,6 +1360,24 @@
     },
     {
         "month": "כסלו",
+        "event": "נפטר רבי ישראל טאוב , האדמו\"ר הראשון בחסידות מודז'יץ",
+        "subject_url": "https://he.wikipedia.org/wiki/ישראל_טאוב",
+        "subject": "ישראל טאוב",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "יג"
+    },
+    {
+        "month": "כסלו",
+        "event": "הקיבוץ תל יוסף מוקם על ידי גדוד העבודה",
+        "subject_url": "https://he.wikipedia.org/wiki/תל_יוסף",
+        "subject": "תל יוסף",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "יג"
+    },
+    {
+        "month": "כסלו",
         "event": "נפטר מנשה בן ישראל, דרשן ומדינאי יהודי מאמשטרדם",
         "subject_url": "https://he.wikipedia.org/wiki/מנשה_בן_ישראל",
         "subject": "מנשה בן ישראל",
@@ -1009,11 +1396,38 @@
     },
     {
         "month": "כסלו",
+        "event": "נולדה חנה מרון, שחקנית תיאטרון ישראלית",
+        "subject_url": "https://he.wikipedia.org/wiki/חנה_מרון",
+        "subject": "חנה מרון",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "יד"
+    },
+    {
+        "month": "כסלו",
         "event": "נפטר רבי יוסף יוזל הורוביץ (\"הסבא מנובהרדוק\"), מראשי תנועת המוסר ומקים ישיבת נובהרדוק",
         "subject_url": "https://he.wikipedia.org/wiki/יוסף_יוזל_הורוביץ",
         "subject": "יוסף יוזל הורוביץ",
         "year": "ה'תר\"ף",
         "gregorian_year": 1840,
+        "day": "יז"
+    },
+    {
+        "month": "כסלו",
+        "event": "השיעורים הראשונים מתקיימים בטכניון",
+        "subject_url": "https://he.wikipedia.org/wiki/הטכניון",
+        "subject": "הטכניון",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "יז"
+    },
+    {
+        "month": "כסלו",
+        "event": "נולד רפי איתן, סוכן מוסד ופוליטיקאי ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/רפי_איתן",
+        "subject": "רפי איתן",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
         "day": "יז"
     },
     {
@@ -1072,6 +1486,15 @@
     },
     {
         "month": "כסלו",
+        "event": "נפטר הרב צבי פרץ חיות",
+        "subject_url": "https://he.wikipedia.org/wiki/צבי_פרץ_חיות",
+        "subject": "צבי פרץ חיות",
+        "year": "ה'תרפ\"ח",
+        "gregorian_year": 1928,
+        "day": "כ"
+    },
+    {
+        "month": "כסלו",
         "event": "רבי אברהם הגר הועלה על המוקד על קידוש השם באאוגסבורג",
         "subject_url": "https://he.wikipedia.org/wiki/אברהם_הגר",
         "subject": "אברהם הגר",
@@ -1099,6 +1522,15 @@
     },
     {
         "month": "כסלו",
+        "event": "נולד המשורר נתן זך.",
+        "subject_url": "https://he.wikipedia.org/wiki/נתן_זך",
+        "subject": "נתן זך",
+        "year": "ה'תרצ\"א",
+        "gregorian_year": 1931,
+        "day": "כג"
+    },
+    {
+        "month": "כסלו",
         "event": "הוחל ייסוד בית המקדש השני בידי שבי ציון בהנהגת חגי, זכריה, זרובבל ויהושע בן יהוצדק",
         "subject_url": "https://he.wikipedia.org/wiki/בית_המקדש_השני",
         "subject": "בית המקדש השני",
@@ -1122,6 +1554,15 @@
         "subject": "חיים חזקיהו מדיני",
         "year": "ה'תרס\"ה",
         "gregorian_year": 1905,
+        "day": "כד"
+    },
+    {
+        "month": "כסלו",
+        "event": "כיבוש ירושלים בידי הצבא הבריטי במהלך המערכה על ארץ ישראל במלחמת העולם הראשונה",
+        "subject_url": "https://he.wikipedia.org/wiki/כיבוש_ירושלים_(1917)",
+        "subject": "כיבוש ירושלים (1917)",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
         "day": "כד"
     },
     {
@@ -1171,6 +1612,24 @@
     },
     {
         "month": "כסלו",
+        "event": "נולד דב גרונר, חבר האצ\"ל, מעולי הגרדום",
+        "subject_url": "https://he.wikipedia.org/wiki/דב_גרונר",
+        "subject": "דב גרונר",
+        "year": "ה'תרע\"ג",
+        "gregorian_year": 1913,
+        "day": "כו"
+    },
+    {
+        "month": "כסלו",
+        "event": "נפטר אליעזר בן-יהודה, \"מחיה השפה העברית\"",
+        "subject_url": "https://he.wikipedia.org/wiki/אליעזר_בן-יהודה",
+        "subject": "אליעזר בן-יהודה",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
+        "day": "כו"
+    },
+    {
+        "month": "כסלו",
         "event": "נולד פרנץ רוזנצווייג, פילוסוף יהודי-גרמני.",
         "subject_url": "https://he.wikipedia.org/wiki/פרנץ_רוזנצווייג",
         "subject": "פרנץ רוזנצווייג",
@@ -1180,11 +1639,29 @@
     },
     {
         "month": "כסלו",
+        "event": "נפטר יחזקאל חנקין, ממקימי ארגון \"השומר\".",
+        "subject_url": "https://he.wikipedia.org/wiki/יחזקאל_חנקין",
+        "subject": "יחזקאל חנקין",
+        "year": "ה'תרע\"ז",
+        "gregorian_year": 1917,
+        "day": "כח"
+    },
+    {
+        "month": "כסלו",
         "event": "נולד רבי אברהם טיקטין, רבן של לונטשיץ, גלוגאו וברסלאו",
         "subject_url": "https://he.wikipedia.org/wiki/אברהם_טיקטין",
         "subject": "אברהם טיקטין",
         "year": "ה'תקכ\"ה",
         "gregorian_year": 1765,
+        "day": "ל"
+    },
+    {
+        "month": "כסלו",
+        "event": "נפטר רבי אברהם חזן, ממנהיגי חסידות ברסלב בארץ ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/אברהם_חזן_(ברסלב)",
+        "subject": "אברהם חזן (ברסלב)",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
         "day": "ל"
     },
     {
@@ -1243,6 +1720,15 @@
     },
     {
         "month": "טבת",
+        "event": "החל אכלוסה של קריית חיים",
+        "subject_url": "https://he.wikipedia.org/wiki/קריית_חיים",
+        "subject": "קריית חיים",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "ג"
+    },
+    {
+        "month": "טבת",
         "event": "נולד ישראל רוקח , ראש עיריית תל אביב, חבר הכנסת ושר מטעם הציונים הכלליים (נפטר בשנת ה'תשי\"ט)",
         "subject_url": "https://he.wikipedia.org/wiki/ישראל_רוקח",
         "subject": "ישראל רוקח",
@@ -1294,6 +1780,24 @@
         "year": "ה'תרמ\"ו",
         "gregorian_year": 1886,
         "day": "ו"
+    },
+    {
+        "month": "טבת",
+        "event": "נפטר אלפרד מונד (הלורד מלצ'ט) , נדבן ומדינאי יהודי בריטי, שפעל למען ארץ ישראל והשתתף בהקמת הסוכנות היהודית",
+        "subject_url": "https://he.wikipedia.org/wiki/אלפרד_מונד",
+        "subject": "אלפרד מונד",
+        "year": "ה'תרצ\"א",
+        "gregorian_year": 1931,
+        "day": "ז"
+    },
+    {
+        "month": "טבת",
+        "event": "נוסד כפר הס, מושב בשרון.",
+        "subject_url": "https://he.wikipedia.org/wiki/כפר_הס",
+        "subject": "כפר הס",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "ז"
     },
     {
         "month": "טבת",
@@ -1387,6 +1891,24 @@
     },
     {
         "month": "טבת",
+        "event": "נולד מארק אדלמן, ממנהיגי מרד גטו ורשה",
+        "subject_url": "https://he.wikipedia.org/wiki/מארק_אדלמן",
+        "subject": "מארק אדלמן",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
+        "day": "יב"
+    },
+    {
+        "month": "טבת",
+        "event": "נולד אריק איינשטיין , זמר ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/אריק_איינשטיין",
+        "subject": "אריק איינשטיין",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "יב"
+    },
+    {
+        "month": "טבת",
         "event": "נולד רבי שמעון סופר, בנו של החתם סופר, רב במטרסדורף ואב\"ד קרקוב, וחבר הפרלמנט האוסטרי",
         "subject_url": "https://he.wikipedia.org/wiki/שמעון_סופר_(מכתב_סופר)",
         "subject": "שמעון סופר (מכתב סופר)",
@@ -1401,6 +1923,15 @@
         "subject": "עזרא דנגור",
         "year": "ה'תר\"ץ",
         "gregorian_year": 1840,
+        "day": "יג"
+    },
+    {
+        "month": "טבת",
+        "event": "הצופה, עיתון תנועת המזרחי העולמית, יוצא לאור לראשונה כיומון",
+        "subject_url": "https://he.wikipedia.org/wiki/הצופה",
+        "subject": "הצופה",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
         "day": "יג"
     },
     {
@@ -1495,11 +2026,29 @@
     },
     {
         "month": "טבת",
+        "event": "הרב קוק מוסר את הרצאת הרב, שבה קרא ליצירת אנציקלופדיה לתורה שבעל פה, סיכום לפרשנות התלמוד, ואת מפעל בירור הלכה",
+        "subject_url": "https://he.wikipedia.org/wiki/הרצאת_הרב",
+        "subject": "הרצאת הרב",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "כ"
+    },
+    {
+        "month": "טבת",
         "event": "נולד אליעזר בן-יהודה, מחיה השפה העברית.",
         "subject_url": "https://he.wikipedia.org/wiki/אליעזר_בן-יהודה",
         "subject": "אליעזר בן-יהודה",
         "year": "ה'תרי\"ח",
         "gregorian_year": 1858,
+        "day": "כא"
+    },
+    {
+        "month": "טבת",
+        "event": "הרב משה אביגדור עמיאל התמנה כרבה הראשי של תל אביב.",
+        "subject_url": "https://he.wikipedia.org/wiki/משה_אביגדור_עמיאל",
+        "subject": "משה אביגדור עמיאל",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
         "day": "כא"
     },
     {
@@ -1518,6 +2067,15 @@
         "subject": "שמואל הלר",
         "year": "ה'תרמ\"ד",
         "gregorian_year": 1884,
+        "day": "כב"
+    },
+    {
+        "month": "טבת",
+        "event": "נולד דן תיכון , יו\"ר הכנסת ה-14",
+        "subject_url": "https://he.wikipedia.org/wiki/דן_תיכון",
+        "subject": "דן תיכון",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
         "day": "כב"
     },
     {
@@ -1576,12 +2134,66 @@
     },
     {
         "month": "טבת",
+        "event": "פעילי ניל\"י מותקפים על ידי בדואים מדרום לרפיח בדרכם ליצור קשר עם הבריטים. אבשלום פיינברג נרצח, אך עמיתו, יוסף לישנסקי, מצליח במשימתו",
+        "subject_url": "https://he.wikipedia.org/wiki/ניל\"י",
+        "subject": "ניל\"י",
+        "year": "ה'תרע\"ז",
+        "gregorian_year": 1917,
+        "day": "כו"
+    },
+    {
+        "month": "טבת",
+        "event": "נפתח קולנוע אדיסון שהיה בית הקולנוע (ראינוע) השלישי בירושלים",
+        "subject_url": "https://he.wikipedia.org/wiki/קולנוע_אדיסון",
+        "subject": "קולנוע אדיסון",
+        "year": "ה'תרצ\"ב",
+        "gregorian_year": 1932,
+        "day": "כו"
+    },
+    {
+        "month": "טבת",
         "event": "נפטר הרב שמשון רפאל הירש",
         "subject_url": "https://he.wikipedia.org/wiki/רש\"ר_הירש",
         "subject": "רש\"ר הירש",
         "year": "ה'תרמ\"ט",
         "gregorian_year": 1889,
         "day": "כז"
+    },
+    {
+        "month": "טבת",
+        "event": "נולד יעקב גדיש, כלכלן, ניצול השואה, בוגר בני עקיבא ואיש הקיבוץ הדתי (נפטר בתאריך זה בשנת ה'תשס\"ה)",
+        "subject_url": "https://he.wikipedia.org/wiki/יעקב_גדיש",
+        "subject": "יעקב גדיש",
+        "year": "ה'תרצ\"ד",
+        "gregorian_year": 1934,
+        "day": "כז"
+    },
+    {
+        "month": "טבת",
+        "event": "נולד אברהם הרשקו, ביוכימאי ישראלי, חתן פרס נובל לכימיה לשנת 2004",
+        "subject_url": "https://he.wikipedia.org/wiki/אברהם_הרשקו",
+        "subject": "אברהם הרשקו",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "כז"
+    },
+    {
+        "month": "טבת",
+        "event": "בפינלנד נכנס לתוקפו חוק שהעניק ליהודים זכויות אזרח מלאות",
+        "subject_url": "https://he.wikipedia.org/wiki/פינלנד",
+        "subject": "פינלנד",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "כח"
+    },
+    {
+        "month": "טבת",
+        "event": "נפטר מייסד הציונות הרוחנית, אשר צבי גרינברג , המכונה אחד העם.",
+        "subject_url": "https://he.wikipedia.org/wiki/אחד_העם",
+        "subject": "אחד העם",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
+        "day": "כח"
     },
     {
         "month": "טבת",
@@ -1608,6 +2220,24 @@
         "subject": "נתן מרקוס אדלר",
         "year": "ה'תר\"ן",
         "gregorian_year": 1840,
+        "day": "כט"
+    },
+    {
+        "month": "טבת",
+        "event": "נפטר רבי ירחמיאל ישראל יצחק דנציגר, האדמו\"ר השני בשושלת חסידות אלכסנדר",
+        "subject_url": "https://he.wikipedia.org/wiki/ירחמיאל_ישראל_יצחק_דנציגר",
+        "subject": "ירחמיאל ישראל יצחק דנציגר",
+        "year": "ה'תר\"ע",
+        "gregorian_year": 1910,
+        "day": "כט"
+    },
+    {
+        "month": "טבת",
+        "event": "נולד רפאל איתן, הרמטכ\"ל ה-11 של צה\"ל, חבר הכנסת ושר בממשלת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/רפאל_איתן",
+        "subject": "רפאל איתן",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
         "day": "כט"
     },
     {
@@ -1657,11 +2287,29 @@
     },
     {
         "month": "שבט",
+        "event": "נולד יצחק מודעי, שר האוצר וחבר הכנסת מטעם הליכוד",
+        "subject_url": "https://he.wikipedia.org/wiki/יצחק_מודעי",
+        "subject": "יצחק מודעי",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
+        "day": "ב"
+    },
+    {
+        "month": "שבט",
         "event": "נולד ארתור רובינשטיין , מגדולי הפסנתרנים במאה ה-20",
         "subject_url": "https://he.wikipedia.org/wiki/ארתור_רובינשטיין",
         "subject": "ארתור רובינשטיין",
         "year": "ה'תרמ\"ז",
         "gregorian_year": 1887,
+        "day": "ג"
+    },
+    {
+        "month": "שבט",
+        "event": "נוסד מפעל \"עליית הנוער\" להעלאת ילדים יהודים ארצה, תחילתו באגודת \"עזרת הנוער היהודי\" שהוקמה בגרמניה ביוזמת רחה פריאר עם עליית הנאצים לשלטון",
+        "subject_url": "https://he.wikipedia.org/wiki/עליית_הנוער",
+        "subject": "עליית הנוער",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
         "day": "ג"
     },
     {
@@ -1680,6 +2328,15 @@
         "subject": "יקותיאל יהודה הלברשטאם",
         "year": "ה'תרס\"ה",
         "gregorian_year": 1905,
+        "day": "ד"
+    },
+    {
+        "month": "שבט",
+        "event": "נפטר יוסף ויתקין, מחנך וממבשרי העלייה השנייה ותנועת העבודה הציונית",
+        "subject_url": "https://he.wikipedia.org/wiki/יוסף_ויתקין",
+        "subject": "יוסף ויתקין",
+        "year": "ה'תרע\"ב",
+        "gregorian_year": 1912,
         "day": "ד"
     },
     {
@@ -1725,6 +2382,15 @@
         "subject": "אלחנן וסרמן",
         "year": "ה'תרל\"ה",
         "gregorian_year": 1875,
+        "day": "ו"
+    },
+    {
+        "month": "שבט",
+        "event": "נפטר מקס נורדאו , ממייסדי התנועה הציונית, הוגה דעות, נואם וסופר, הוגה חזון \"יהדות השרירים\"",
+        "subject_url": "https://he.wikipedia.org/wiki/מקס_נורדאו",
+        "subject": "מקס נורדאו",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
         "day": "ו"
     },
     {
@@ -1819,6 +2485,15 @@
     },
     {
         "month": "שבט",
+        "event": "נפטר רבי שלום מרדכי שבדרון מברז'אן, רב ופוסק הלכה מפורסם בגליציה",
+        "subject_url": "https://he.wikipedia.org/wiki/שלום_מרדכי_שבדרון",
+        "subject": "שלום מרדכי שבדרון",
+        "year": "ה'תרע\"א",
+        "gregorian_year": 1911,
+        "day": "טז"
+    },
+    {
+        "month": "שבט",
         "event": "נפטר רבי מאיר קצנלנבוגן , רב הקהילה אשכנזית בפדובה וראש הישיבה, ומגדולי הפוסקים",
         "subject_url": "https://he.wikipedia.org/wiki/מאיר_קצנלנבוגן",
         "subject": "מאיר קצנלנבוגן",
@@ -1833,6 +2508,15 @@
         "subject": "שלום שרעבי",
         "year": "ה'תקמ\"ב",
         "gregorian_year": 1782,
+        "day": "י"
+    },
+    {
+        "month": "שבט",
+        "event": "נולד פטר גינז, נער יהודי שנספה בשואה ולאחר מכן התפרסם ציורו בעולם",
+        "subject_url": "https://he.wikipedia.org/wiki/פטר_גינז",
+        "subject": "פטר גינז",
+        "year": "ה'תרפ\"ח",
+        "gregorian_year": 1928,
         "day": "י"
     },
     {
@@ -1869,6 +2553,24 @@
         "subject": "פנחס רוטנברג",
         "year": "ה'תרל\"ט",
         "gregorian_year": 1879,
+        "day": "יב"
+    },
+    {
+        "month": "שבט",
+        "event": "נולד ישראל גלילי, ראש המפקדה הארצית של \"ההגנה\" ושר בממשלת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/ישראל_גלילי",
+        "subject": "ישראל גלילי",
+        "year": "ה'תרע\"א",
+        "gregorian_year": 1911,
+        "day": "יב"
+    },
+    {
+        "month": "שבט",
+        "event": "נפתח הטכניון בחיפה",
+        "subject_url": "https://he.wikipedia.org/wiki/הטכניון",
+        "subject": "הטכניון",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
         "day": "יב"
     },
     {
@@ -1936,6 +2638,24 @@
     },
     {
         "month": "שבט",
+        "event": "נולד אבא אבן, דיפלומט ומדינאי ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/אבא_אבן",
+        "subject": "אבא אבן",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "יח"
+    },
+    {
+        "month": "שבט",
+        "event": "נולד הרב חיים דוד הלוי, רבה הראשי של תל אביב וחתן פרס ישראל לספרות תורנית",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_דוד_הלוי",
+        "subject": "חיים דוד הלוי",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "יח"
+    },
+    {
+        "month": "שבט",
         "event": "גזירות ק\"ט: רצח יהודי בזל, שהואשמו בגרימת מגפת המוות השחור",
         "subject_url": "https://he.wikipedia.org/wiki/אנטישמיות_בימי_המוות_השחור",
         "subject": "אנטישמיות בימי המוות השחור",
@@ -1963,12 +2683,39 @@
     },
     {
         "month": "שבט",
+        "event": "נפטר רבי שמואל וינברג מסלונים, האדמו\"ר השני בחסידות סלונים",
+        "subject_url": "https://he.wikipedia.org/wiki/שמואל_וינברג_מסלונים",
+        "subject": "שמואל וינברג מסלונים",
+        "year": "ה'תרע\"ו",
+        "gregorian_year": 1916,
+        "day": "יט"
+    },
+    {
+        "month": "שבט",
         "event": "נולד הרב יחיאל מיכל הלוי אפשטין, מחבר הספר ערוך השולחן",
         "subject_url": "https://he.wikipedia.org/wiki/יחיאל_מיכל_הלוי_אפשטין",
         "subject": "יחיאל מיכל הלוי אפשטין",
         "year": "ה'תקפ\"ט",
         "gregorian_year": 1829,
         "day": "כ"
+    },
+    {
+        "month": "שבט",
+        "event": "נולד הרב משה צבי נריה, מייסד ישיבת כפר הרא\"ה, חבר הכנסת השביעית",
+        "subject_url": "https://he.wikipedia.org/wiki/משה_צבי_נריה",
+        "subject": "משה צבי נריה",
+        "year": "ה'תרע\"ג",
+        "gregorian_year": 1913,
+        "day": "כא"
+    },
+    {
+        "month": "שבט",
+        "event": "נולד הרב שלמה גורן, מייסד הרבנות הצבאית והרב הראשי לישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/שלמה_גורן",
+        "subject": "שלמה גורן",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "כא"
     },
     {
         "month": "שבט",
@@ -2013,6 +2760,15 @@
         "subject": "יהושע רוקח",
         "year": "ה'תרנ\"ד",
         "gregorian_year": 1894,
+        "day": "כג"
+    },
+    {
+        "month": "שבט",
+        "event": "נולד מישאל חשין, שופט בית המשפט העליון",
+        "subject_url": "https://he.wikipedia.org/wiki/מישאל_חשין",
+        "subject": "מישאל חשין",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
         "day": "כג"
     },
     {
@@ -2116,6 +2872,15 @@
     },
     {
         "month": "אדר",
+        "event": "נולד יצחק רבין, ראש ממשלת ישראל, הרמטכ\"ל, שר הביטחון וחתן פרס נובל לשלום",
+        "subject_url": "https://he.wikipedia.org/wiki/יצחק_רבין",
+        "subject": "יצחק רבין",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "א"
+    },
+    {
+        "month": "אדר",
         "event": "נוסדה חברת כל ישראל חברים",
         "subject_url": "https://he.wikipedia.org/wiki/כל_ישראל_חברים",
         "subject": "כל ישראל חברים",
@@ -2152,6 +2917,24 @@
     },
     {
         "month": "אדר",
+        "event": "ראשוני עליית הנוער עלו ארצה ונקלטו בעין חרוד",
+        "subject_url": "https://he.wikipedia.org/wiki/עליית_הנוער",
+        "subject": "עליית הנוער",
+        "year": "ה'תרצ\"ד",
+        "gregorian_year": 1934,
+        "day": "ד"
+    },
+    {
+        "month": "אדר",
+        "event": "נוסדה חברת מקורות",
+        "subject_url": "https://he.wikipedia.org/wiki/מקורות",
+        "subject": "מקורות",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
+        "day": "ד"
+    },
+    {
+        "month": "אדר",
         "event": "נולד רש\"י, גדול פרשני התלמוד והמקרא בימי הביניים",
         "subject_url": "https://he.wikipedia.org/wiki/רש\"י",
         "subject": "רש\"י",
@@ -2179,11 +2962,65 @@
     },
     {
         "month": "אדר",
+        "event": "נולד אריאל שרון , ראש ממשלת ישראל לשעבר",
+        "subject_url": "https://he.wikipedia.org/wiki/אריאל_שרון",
+        "subject": "אריאל שרון",
+        "year": "ה'תרפ\"ח",
+        "gregorian_year": 1928,
+        "day": "ה"
+    },
+    {
+        "month": "אדר",
+        "event": "נפטר יחיאל מיכל פינס , שפעל לפיתוח היישוב בירושלים ומחוצה לה",
+        "subject_url": "https://he.wikipedia.org/wiki/יחיאל_מיכל_פינס",
+        "subject": "יחיאל מיכל פינס",
+        "year": "ה'תרע\"ג",
+        "gregorian_year": 1913,
+        "day": "ו"
+    },
+    {
+        "month": "אדר",
+        "event": "הוקמה סולל בונה חברת פועלים לעבודות ציבוריות",
+        "subject_url": "https://he.wikipedia.org/wiki/סולל_בונה",
+        "subject": "סולל בונה",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "ו"
+    },
+    {
+        "month": "אדר",
+        "event": "נולד דוד אבידן, משורר, צייר, איש-קולנוע, פובליציסט ומחזאי ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/דוד_אבידן",
+        "subject": "דוד אבידן",
+        "year": "ה'תרצ\"ד",
+        "gregorian_year": 1934,
+        "day": "ו"
+    },
+    {
+        "month": "אדר",
+        "event": "המתיישבים הראשונים מגיעים לנתניה",
+        "subject_url": "https://he.wikipedia.org/wiki/נתניה",
+        "subject": "נתניה",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "ח"
+    },
+    {
+        "month": "אדר",
         "event": "נולד אברהם הלוי פרנקל, מתמטיקאי ישראלי",
         "subject_url": "https://he.wikipedia.org/wiki/אברהם_הלוי_פרנקל",
         "subject": "אברהם הלוי פרנקל",
         "year": "ה'תרנ\"א",
         "gregorian_year": 1891,
+        "day": "ט"
+    },
+    {
+        "month": "אדר",
+        "event": "נולד מנחם שטרן, פרופסור להיסטוריה של עם ישראל, מגדולי חוקרי תקופת בית שני",
+        "subject_url": "https://he.wikipedia.org/wiki/מנחם_שטרן",
+        "subject": "מנחם שטרן",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
         "day": "ט"
     },
     {
@@ -2194,6 +3031,33 @@
         "year": "ה'רנ\"ב",
         "gregorian_year": 1492,
         "day": "טו"
+    },
+    {
+        "month": "אדר",
+        "event": "יסוד הרבנות הראשית לישראל, ובחירת הרב אברהם יצחק הכהן קוק והרב יעקב מאיר לכהן כרבנים הראשיים לישראל.",
+        "subject_url": "https://he.wikipedia.org/wiki/הרבנות_הראשית_לישראל",
+        "subject": "הרבנות הראשית לישראל",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "טז"
+    },
+    {
+        "month": "אדר",
+        "event": "נולד יעקב זלדוביץ', פיזיקאי סובייטי יהודי",
+        "subject_url": "https://he.wikipedia.org/wiki/יעקב_זלדוביץ'",
+        "subject": "יעקב זלדוביץ'",
+        "year": "ה'תרע\"ד",
+        "gregorian_year": 1914,
+        "day": "י"
+    },
+    {
+        "month": "אדר",
+        "event": "נפטרה חביבה מסיכה, זמרת ושחקנית תיאטרון יהודיה-תוניסאית",
+        "subject_url": "https://he.wikipedia.org/wiki/חביבה_מסיכה",
+        "subject": "חביבה מסיכה",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "י"
     },
     {
         "month": "אדר",
@@ -2242,6 +3106,15 @@
     },
     {
         "month": "אדר",
+        "event": "נפטר רבי יצחק מבויאן, בעל \"פחד יצחק\", האדמו\"ר הראשון של חסידות בויאן.",
+        "subject_url": "https://he.wikipedia.org/wiki/יצחק_מבויאן",
+        "subject": "יצחק מבויאן",
+        "year": "ה'תרע\"ז",
+        "gregorian_year": 1917,
+        "day": "יז"
+    },
+    {
+        "month": "אדר",
         "event": "דר ב') – נפטר רבי חנוך הניך הכהן לוין מאלכסנדר, כיהן כאדמו\"ר לחסידי גור",
         "subject_url": "https://he.wikipedia.org/wiki/חנוך_הניך_הכהן_לוין",
         "subject": "חנוך הניך הכהן לוין",
@@ -2251,11 +3124,38 @@
     },
     {
         "month": "אדר",
+        "event": "זאב ז'בוטינסקי ויוסף טרומפלדור הקימו את הגדודים העבריים",
+        "subject_url": "https://he.wikipedia.org/wiki/הגדודים_העבריים",
+        "subject": "הגדודים העבריים",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "יח"
+    },
+    {
+        "month": "אדר",
         "event": "דר א') – נפוליאון כובש את עזה.",
         "subject_url": "https://he.wikipedia.org/wiki/מסע_נפוליאון_בארץ_ישראל#כיבוש_עזה_ורמלה",
         "subject": "מסע נפוליאון בארץ ישראל",
         "year": "ה'תקנ\"ט",
         "gregorian_year": 1799,
+        "day": "יט"
+    },
+    {
+        "month": "אדר",
+        "event": "פנחס רוטנברג מקבל זיכיון לשימוש במי הירדן והירמוך להפקת חשמל.",
+        "subject_url": "https://he.wikipedia.org/wiki/חשמל",
+        "subject": "חשמל",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
+        "day": "יט"
+    },
+    {
+        "month": "אדר",
+        "event": "דר ב') – נפטר הרב יוסף חיים זוננפלד , מנהיג העדה החרדית בראשית המאה העשרים.",
+        "subject_url": "https://he.wikipedia.org/wiki/יוסף_חיים_זוננפלד",
+        "subject": "יוסף חיים זוננפלד",
+        "year": "ה'תרצ\"ב",
+        "gregorian_year": 1932,
         "day": "יט"
     },
     {
@@ -2314,6 +3214,24 @@
     },
     {
         "month": "אדר",
+        "event": "נולד שמואל תמיר, עורך דין ופוליטיקאי ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/שמואל_תמיר",
+        "subject": "שמואל תמיר",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
+        "day": "כב"
+    },
+    {
+        "month": "אדר",
+        "event": "נמל תל אביב נפתח לתנועת נוסעים",
+        "subject_url": "https://he.wikipedia.org/wiki/נמל_תל_אביב",
+        "subject": "נמל תל אביב",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "כב"
+    },
+    {
+        "month": "אדר",
         "event": "נפטר רבי יצחק מאיר אלתר, בעל חידושי הרי\"ם, האדמו\"ר הראשון של חסידות גור",
         "subject_url": "https://he.wikipedia.org/wiki/יצחק_מאיר_אלתר",
         "subject": "יצחק מאיר אלתר",
@@ -2350,11 +3268,29 @@
     },
     {
         "month": "אדר",
+        "event": "נולד דן צלקה, סופר ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/דן_צלקה",
+        "subject": "דן צלקה",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
+        "day": "כה"
+    },
+    {
+        "month": "אדר",
         "event": "נולד שלום עליכם , סופר יהודי, מחשובי הסופרים היידישאים",
         "subject_url": "https://he.wikipedia.org/wiki/שלום_עליכם",
         "subject": "שלום עליכם",
         "year": "ה'תרי\"ט",
         "gregorian_year": 1859,
+        "day": "כו"
+    },
+    {
+        "month": "אדר",
+        "event": "נולד יגאל ידין, הרמטכ\"ל השני של צה\"ל, ארכאולוג ופוליטיקאי",
+        "subject_url": "https://he.wikipedia.org/wiki/יגאל_ידין",
+        "subject": "יגאל ידין",
+        "year": "ה'תרע\"ז",
+        "gregorian_year": 1917,
         "day": "כו"
     },
     {
@@ -2395,6 +3331,15 @@
     },
     {
         "month": "ניסן",
+        "event": "הונחו אבני פינה לערים רעננה וגבעתיים",
+        "subject_url": "https://he.wikipedia.org/wiki/רעננה",
+        "subject": "רעננה",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "ד"
+    },
+    {
+        "month": "ניסן",
         "event": "נפטר הרב שניאור זלמן פרדקין, מרבני היישוב הישן.",
         "subject_url": "https://he.wikipedia.org/wiki/שניאור_זלמן_פרדקין",
         "subject": "שניאור זלמן פרדקין",
@@ -2427,6 +3372,24 @@
         "subject": "עובדיה מברטנורא",
         "year": "ה'רמ\"ח",
         "gregorian_year": 1488,
+        "day": "ז"
+    },
+    {
+        "month": "ניסן",
+        "event": "נחנכה האוניברסיטה העברית בהר הצופים שבירושלים",
+        "subject_url": "https://he.wikipedia.org/wiki/האוניברסיטה_העברית_בירושלים",
+        "subject": "האוניברסיטה העברית בירושלים",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "ז"
+    },
+    {
+        "month": "ניסן",
+        "event": "התחילו שידורי הרדיו בארץ ישראל – שידורי \"קול ירושלים\"",
+        "subject_url": "https://he.wikipedia.org/wiki/קול_ירושלים",
+        "subject": "קול ירושלים",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
         "day": "ז"
     },
     {
@@ -2476,6 +3439,15 @@
     },
     {
         "month": "ניסן",
+        "event": "נפטר בנימין פוקס (שועל) חבר תנועת ביל\"ו, היה בקבוצה הראשונה של הביל\"ויים שעלו ארצה מניקולייב בשנת 1882, ממייסדי המושבה גדרה.",
+        "subject_url": "https://he.wikipedia.org/wiki/בנימין_פוקס",
+        "subject": "בנימין פוקס",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "טו"
+    },
+    {
+        "month": "ניסן",
         "event": "פורצים הפוגרומים סופות בנגב בדרום רוסיה",
         "subject_url": "https://he.wikipedia.org/wiki/סופות_בנגב",
         "subject": "סופות בנגב",
@@ -2508,6 +3480,15 @@
         "subject": "דוד פרנקל",
         "year": "ה'תקכ\"ב",
         "gregorian_year": 1762,
+        "day": "יב"
+    },
+    {
+        "month": "ניסן",
+        "event": "נולדה הלגה דן, נערה יהודייה הולנדית שסיפור ימיה האחרונים תחת השלטון הנאצי נכתב ביומנה",
+        "subject_url": "https://he.wikipedia.org/wiki/הלגה_דן",
+        "subject": "הלגה דן",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
         "day": "יב"
     },
     {
@@ -2545,6 +3526,42 @@
         "year": "ד'תתצ\"ח",
         "gregorian_year": 1138,
         "day": "יד"
+    },
+    {
+        "month": "ניסן",
+        "event": "מוקם גדוד נהגי הפרדות – גדוד עברי של מתנדבים יהודים שעזר לבריטניה במהלך מלחמת העולם הראשונה",
+        "subject_url": "https://he.wikipedia.org/wiki/גדוד_נהגי_הפרדות",
+        "subject": "גדוד נהגי הפרדות",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "יז"
+    },
+    {
+        "month": "ניסן",
+        "event": "נוסדה תנועת הפועל המזרחי",
+        "subject_url": "https://he.wikipedia.org/wiki/הפועל_המזרחי",
+        "subject": "הפועל המזרחי",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "יח"
+    },
+    {
+        "month": "ניסן",
+        "event": "נפטר הסופר י\"ל פרץ",
+        "subject_url": "https://he.wikipedia.org/wiki/י\"ל_פרץ",
+        "subject": "י\"ל פרץ",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "יט"
+    },
+    {
+        "month": "ניסן",
+        "event": "נוסדה העיר גבעתיים",
+        "subject_url": "https://he.wikipedia.org/wiki/גבעתיים",
+        "subject": "גבעתיים",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "יט"
     },
     {
         "month": "ניסן",
@@ -2602,11 +3619,38 @@
     },
     {
         "month": "ניסן",
+        "event": "העיתון הארץ נוסד בירושלים, בשם \"חדשות מהארץ הקדושה\"",
+        "subject_url": "https://he.wikipedia.org/wiki/הארץ",
+        "subject": "הארץ",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "כב"
+    },
+    {
+        "month": "ניסן",
         "event": "נפטר הרב משה מטראני (המבי\"ט), מחכמי צפת בתקופתו של מחבר השולחן ערוך רבי יוסף קארו, ומחשובי הפוסקים של ראשית תקופת האחרונים.",
         "subject_url": "https://he.wikipedia.org/wiki/משה_מטראני",
         "subject": "משה מטראני",
         "year": "ה'ש\"ם",
         "gregorian_year": 1540,
+        "day": "כג"
+    },
+    {
+        "month": "ניסן",
+        "event": "פרוץ פרעות תרפ\"א, שבהם נעשו מעשי אלימות של ערבים נגד יהודים בארץ ישראל ובמהלכם נרצחו 43 יהודים",
+        "subject_url": "https://he.wikipedia.org/wiki/פרעות_תרפ\"א",
+        "subject": "פרעות תרפ\"א",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "כג"
+    },
+    {
+        "month": "ניסן",
+        "event": "האצ\"ל נוסד בירושלים על ידי פורשים מ\"ההגנה\", בראשות אברהם תהומי",
+        "subject_url": "https://he.wikipedia.org/wiki/ארגון_צבאי_לאומי",
+        "subject": "ארגון צבאי לאומי",
+        "year": "ה'תרצ\"א",
+        "gregorian_year": 1931,
         "day": "כג"
     },
     {
@@ -2620,12 +3664,48 @@
     },
     {
         "month": "ניסן",
+        "event": "מאורעות תרפ\"א: רצח יוסף חיים ברנר וחבריו",
+        "subject_url": "https://he.wikipedia.org/wiki/רצח_יוסף_חיים_ברנר_וחבריו",
+        "subject": "רצח יוסף חיים ברנר וחבריו",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "כד"
+    },
+    {
+        "month": "ניסן",
+        "event": "הונחה אבן היסוד לטכניקום של חיפה, שיהפוך אחרי שנים לטכניון",
+        "subject_url": "https://he.wikipedia.org/wiki/הטכניון_-_מכון_טכנולוגי_לישראל",
+        "subject": "הטכניון - מכון טכנולוגי לישראל",
+        "year": "ה'תרע\"ב",
+        "gregorian_year": 1912,
+        "day": "כד"
+    },
+    {
+        "month": "ניסן",
         "event": "נפטר הרב חיים הלברשטאם מחבר הספר דברי חיים ומייסד חסידות צאנז",
         "subject_url": "https://he.wikipedia.org/wiki/חיים_הלברשטאם",
         "subject": "חיים הלברשטאם",
         "year": "ה'תרל\"ו",
         "gregorian_year": 1876,
         "day": "כה"
+    },
+    {
+        "month": "ניסן",
+        "event": "הקמת הגסטפו בגרמניה הנאצית",
+        "subject_url": "https://he.wikipedia.org/wiki/גסטפו",
+        "subject": "גסטפו",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "כז"
+    },
+    {
+        "month": "ניסן",
+        "event": "תחילת המרד הערבי הגדול בארץ ישראל המנדטורית",
+        "subject_url": "https://he.wikipedia.org/wiki/המרד_הערבי_הגדול",
+        "subject": "המרד הערבי הגדול",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
+        "day": "כז"
     },
     {
         "month": "ניסן",
@@ -2656,11 +3736,47 @@
     },
     {
         "month": "ניסן",
+        "event": "נפטרה רחל המשוררת",
+        "subject_url": "https://he.wikipedia.org/wiki/רחל_המשוררת",
+        "subject": "רחל המשוררת",
+        "year": "ה'תרצ\"א",
+        "gregorian_year": 1931,
+        "day": "כט"
+    },
+    {
+        "month": "ניסן",
         "event": "נפטר רבי חיים ויטאל (המהרח\"ו) – תלמידו של האר\"י ומחבר ספריו",
         "subject_url": "https://he.wikipedia.org/wiki/חיים_ויטאל",
         "subject": "חיים ויטאל",
         "year": "ה'ש\"ף",
         "gregorian_year": 1540,
+        "day": "ל"
+    },
+    {
+        "month": "ניסן",
+        "event": "פורצות פרעות התריתל נגד היהודים בעיר פאס שבמרוקו",
+        "subject_url": "https://he.wikipedia.org/wiki/התריתל",
+        "subject": "התריתל",
+        "year": "ה'תרע\"ב",
+        "gregorian_year": 1912,
+        "day": "ל"
+    },
+    {
+        "month": "ניסן",
+        "event": "נולד שלמה בן-יוסף, לוחם מחתרת ישראלי, ראשון לעולי הגרדום",
+        "subject_url": "https://he.wikipedia.org/wiki/שלמה_בן-יוסף",
+        "subject": "שלמה בן-יוסף",
+        "year": "ה'תרע\"ג",
+        "gregorian_year": 1913,
+        "day": "ל"
+    },
+    {
+        "month": "ניסן",
+        "event": "נולד ברנרד מלמוד, סופר אמריקאי יהודי, זוכה פרס פוליצר",
+        "subject_url": "https://he.wikipedia.org/wiki/ברנרד_מלמוד",
+        "subject": "ברנרד מלמוד",
+        "year": "ה'תרע\"ד",
+        "gregorian_year": 1914,
         "day": "ל"
     },
     {
@@ -2710,6 +3826,15 @@
     },
     {
         "month": "אייר",
+        "event": "נפטר ר' ישעיה שטיינר, אדמו\"ר ומייסדה של חסידות קרסטיר",
+        "subject_url": "https://he.wikipedia.org/wiki/ישעיה_שטיינר",
+        "subject": "ישעיה שטיינר",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "ג"
+    },
+    {
+        "month": "אייר",
         "event": "נולד הרב מאיר בר-אילן, ממנהיגי המזרחי",
         "subject_url": "https://he.wikipedia.org/wiki/מאיר_בר-אילן",
         "subject": "מאיר בר-אילן",
@@ -2733,6 +3858,15 @@
         "subject": "המנדט הבריטי",
         "year": "ה'תר\"ף",
         "gregorian_year": 1840,
+        "day": "ו"
+    },
+    {
+        "month": "אייר",
+        "event": "נולד הרב מרדכי ברויאר, חתן פרס ישראל, מומחה לנוסח המסורה ומפתח \"שיטת הבחינות\" להתמודדות דתית עם ביקורת המקרא",
+        "subject_url": "https://he.wikipedia.org/wiki/מרדכי_ברויאר",
+        "subject": "מרדכי ברויאר",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
         "day": "ו"
     },
     {
@@ -2818,12 +3952,66 @@
     },
     {
         "month": "אייר",
+        "event": "נפטר אלתר אשר אברהם אבא דרוּיאָנוֹב, סופר, עורך, מתרגם, עיתונאי, ועסקן ציוני, מחבר ספר הבדיחה והחידוד",
+        "subject_url": "https://he.wikipedia.org/wiki/אלתר_דרויאנוב",
+        "subject": "אלתר דרויאנוב",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "ט"
+    },
+    {
+        "month": "אייר",
+        "event": "מתרחשת שריפת הספרים הפומבית בגרמניה הנאצית , שהונצחה באנדרטת ספרייה",
+        "subject_url": "https://he.wikipedia.org/wiki/שריפת_הספרים_בגרמניה_הנאצית",
+        "subject": "שריפת הספרים בגרמניה הנאצית",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "טו"
+    },
+    {
+        "month": "אייר",
+        "event": "נולד עמוס עוז, סופר ישראלי, זוכה פרס ישראל ופרס גתה",
+        "subject_url": "https://he.wikipedia.org/wiki/עמוס_עוז",
+        "subject": "עמוס עוז",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "טו"
+    },
+    {
+        "month": "אייר",
         "event": "נפטר הרי\"ף – רבי יצחק אלפסי, מגדולי הפוסקים הספרדים",
         "subject_url": "https://he.wikipedia.org/wiki/רי\"ף",
         "subject": "רי\"ף",
         "year": "ד'תתס\"ג",
         "gregorian_year": 1103,
         "day": "י"
+    },
+    {
+        "month": "אייר",
+        "event": "נפטר שלום עליכם, סופר יהודי שכתב ביידיש",
+        "subject_url": "https://he.wikipedia.org/wiki/שלום_עליכם",
+        "subject": "שלום עליכם",
+        "year": "ה'תרע\"ו",
+        "gregorian_year": 1916,
+        "day": "י"
+    },
+    {
+        "month": "אייר",
+        "event": "שמה של אחוזת בית מוחלף לתל אביב",
+        "subject_url": "https://he.wikipedia.org/wiki/אחוזת_בית",
+        "subject": "אחוזת בית",
+        "year": "ה'תר\"ע",
+        "gregorian_year": 1910,
+        "day": "יב"
+    },
+    {
+        "month": "אייר",
+        "event": "נפטר ישראל דב פרומקין – איש היישוב הישן, מחלוצי העיתונות העברית, עורך \"חבצלת\"",
+        "subject_url": "https://he.wikipedia.org/wiki/ישראל_דב_פרומקין",
+        "subject": "ישראל דב פרומקין",
+        "year": "ה'תרע\"ד",
+        "gregorian_year": 1914,
+        "day": "יד"
     },
     {
         "month": "אייר",
@@ -2907,6 +4095,15 @@
         "day": "כח"
     },
     {
+        "month": "אייר",
+        "event": "פרסום הספר הלבן ה-3 ובו הגבלות חמורות על היישוב היהודי בארץ ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/הספר_הלבן,_1939",
+        "subject": "הספר הלבן, 1939",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "כח"
+    },
+    {
         "month": "סיוון",
         "event": "פרעות ביהודי ורמייזא במסגרת פרעות תתנ\"ו במסע הצלב הראשון",
         "subject_url": "https://he.wikipedia.org/wiki/יהדות_וורמס",
@@ -2926,11 +4123,29 @@
     },
     {
         "month": "סיוון",
+        "event": "נולדה אנה פרנק, נערה יהודיה שנספתה בשואה, כתבה יומן שבו תיארה את שנות חייה האחרונות",
+        "subject_url": "https://he.wikipedia.org/wiki/אנה_פרנק",
+        "subject": "אנה פרנק",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "ד"
+    },
+    {
+        "month": "סיוון",
         "event": "נוסדה המושבה מטולה שהייתה אז המושבה היהודית הצפונית ביותר בארץ ישראל והודות לה נכלל שטחו של הגליל העליון בשטח המנדט הבריטי",
         "subject_url": "https://he.wikipedia.org/wiki/מטולה",
         "subject": "מטולה",
         "year": "ה'תרנ\"ו",
         "gregorian_year": 1896,
+        "day": "ה"
+    },
+    {
+        "month": "סיוון",
+        "event": "נולד הרב ישעיהו משורר, רב ודיין, אב\"ד פ\"ת וחבר בית הדין הרבני הגדול בירושלים",
+        "subject_url": "https://he.wikipedia.org/wiki/ישעיהו_משורר",
+        "subject": "ישעיהו משורר",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
         "day": "ה"
     },
     {
@@ -2949,6 +4164,15 @@
         "subject": "אברהם בן אברהם",
         "year": "ה'תק\"ט",
         "gregorian_year": 1749,
+        "day": "ז"
+    },
+    {
+        "month": "סיוון",
+        "event": "נולד משה דיין, הרמטכ\"ל הרביעי ושר הביטחון",
+        "subject_url": "https://he.wikipedia.org/wiki/משה_דיין",
+        "subject": "משה דיין",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
         "day": "ז"
     },
     {
@@ -2980,11 +4204,38 @@
     },
     {
         "month": "סיוון",
+        "event": "נפטר הראשון לציון הרב יעקב מאיר",
+        "subject_url": "https://he.wikipedia.org/wiki/יעקב_מאיר",
+        "subject": "יעקב מאיר",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "ט"
+    },
+    {
+        "month": "סיוון",
+        "event": "נפטר הרב יעקב חיים סופר, מחבר כף החיים",
+        "subject_url": "https://he.wikipedia.org/wiki/יעקב_חיים_סופר",
+        "subject": "יעקב חיים סופר",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "ט"
+    },
+    {
+        "month": "סיוון",
         "event": "נפטר הרב מרדכי מנחם מנדל קאליש, האדמו\"ר הצעיר מוורקא",
         "subject_url": "https://he.wikipedia.org/wiki/מרדכי_מנחם_מנדל_קאליש",
         "subject": "מרדכי מנחם מנדל קאליש",
         "year": "ה'תרכ\"ח",
         "gregorian_year": 1868,
+        "day": "טז"
+    },
+    {
+        "month": "סיוון",
+        "event": "נולד יעקב חודורוב, כדורגלן, מגדולי השוערים בכדורגל בישראל וחתן פרס ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/יעקב_חודורוב",
+        "subject": "יעקב חודורוב",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
         "day": "טז"
     },
     {
@@ -3003,6 +4254,24 @@
         "subject": "ישמעאל הכהן ממודנה",
         "year": "ה'תקע\"א",
         "gregorian_year": 1811,
+        "day": "י"
+    },
+    {
+        "month": "סיוון",
+        "event": "נפתח בית הנכות הלאומי בצלאל בירושלים בהנהלתם של בוריס שץ ומרדכי נרקיס",
+        "subject_url": "https://he.wikipedia.org/wiki/בית_הנכות_בצלאל",
+        "subject": "בית הנכות בצלאל",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "י"
+    },
+    {
+        "month": "סיוון",
+        "event": "מופע הבכורה של תיאטרון האהל נערך בתל אביב",
+        "subject_url": "https://he.wikipedia.org/wiki/האהל",
+        "subject": "האהל",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
         "day": "י"
     },
     {
@@ -3034,11 +4303,29 @@
     },
     {
         "month": "סיוון",
+        "event": "נולד עזר ויצמן, נשיאהּ‏ השביעי של ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/עזר_ויצמן",
+        "subject": "עזר ויצמן",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "יג"
+    },
+    {
+        "month": "סיוון",
         "event": "נפטר רבי חיים מוולוז'ין",
         "subject_url": "https://he.wikipedia.org/wiki/חיים_מוולוז'ין",
         "subject": "חיים מוולוז'ין",
         "year": "ה'תקפ\"א",
         "gregorian_year": 1821,
+        "day": "יד"
+    },
+    {
+        "month": "סיוון",
+        "event": "לאון בלום , יהודי צרפתי, יושב ראש מפלגת SFIO, מתמנה לראש ממשלת צרפת. באותו יום, בשנת ה'תש\"י הוא נפטר",
+        "subject_url": "https://he.wikipedia.org/wiki/לאון_בלום",
+        "subject": "לאון בלום",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
         "day": "יד"
     },
     {
@@ -3097,6 +4384,42 @@
     },
     {
         "month": "סיוון",
+        "event": "עלייה על הקרקע של קיבוץ אלונים",
+        "subject_url": "https://he.wikipedia.org/wiki/אלונים",
+        "subject": "אלונים",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "כא"
+    },
+    {
+        "month": "סיוון",
+        "event": "נולד הרב ישראל מאיר לאו, הרב הראשי לישראל הרב הראשי של תל אביב לשעבר, חתן פרס ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/ישראל_מאיר_לאו",
+        "subject": "ישראל מאיר לאו",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
+        "day": "כב"
+    },
+    {
+        "month": "סיוון",
+        "event": "רצח חיים ארלוזורוב בתל אביב",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_ארלוזורוב",
+        "subject": "חיים ארלוזורוב",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "כג"
+    },
+    {
+        "month": "סיוון",
+        "event": "נולד אברהם בייגה שוחט , פוליטיקאי ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/אברהם_בייגה_שוחט",
+        "subject": "אברהם בייגה שוחט",
+        "year": "ה'תרצ\"ו",
+        "gregorian_year": 1936,
+        "day": "כד"
+    },
+    {
+        "month": "סיוון",
         "event": "נולד יוסף שלמה דלמדיגו (יש\"ר מקנדיה), רב, פילוסוף, רופא, מתמטיקאי ואסטרונום.",
         "subject_url": "https://he.wikipedia.org/wiki/יוסף_שלמה_דלמדיגו",
         "subject": "יוסף שלמה דלמדיגו",
@@ -3111,6 +4434,24 @@
         "subject": "דוב בעריש מביאלה",
         "year": "ה'תרל\"ו",
         "gregorian_year": 1876,
+        "day": "כה"
+    },
+    {
+        "month": "סיוון",
+        "event": "חבר הלאומים אישר את המנדט הבריטי על ארץ ישראל.",
+        "subject_url": "https://he.wikipedia.org/wiki/המנדט_הבריטי",
+        "subject": "המנדט הבריטי",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "כה"
+    },
+    {
+        "month": "סיוון",
+        "event": "נפטר יוסף רוזנבלט, מגדולי החזנים ומלחין פורה.",
+        "subject_url": "https://he.wikipedia.org/wiki/יוסף_רוזנבלט",
+        "subject": "יוסף רוזנבלט",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
         "day": "כה"
     },
     {
@@ -3139,6 +4480,15 @@
         "year": "ה'תרט\"ז",
         "gregorian_year": 1856,
         "day": "כז"
+    },
+    {
+        "month": "סיוון",
+        "event": "נרצח ישראל דה האן. זהו הרצח הפוליטי הראשון בארץ ישראל בעת החדשה",
+        "subject_url": "https://he.wikipedia.org/wiki/יעקב_ישראל_דה_האן",
+        "subject": "יעקב ישראל דה האן",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "כט"
     },
     {
         "month": "סיוון",
@@ -3286,6 +4636,15 @@
     },
     {
         "month": "תמוז",
+        "event": "נוסדה המושבה נווה יעקב מצפון לירושלים",
+        "subject_url": "https://he.wikipedia.org/wiki/נווה_יעקב_(מושבה)",
+        "subject": "נווה יעקב (מושבה)",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "ח"
+    },
+    {
+        "month": "תמוז",
         "event": "(לפי המקרא והמסורת היהודית) נפרצו חומות ירושלים על ידי הבבלים",
         "subject_url": "https://he.wikipedia.org/wiki/ירושלים",
         "subject": "ירושלים",
@@ -3322,11 +4681,38 @@
     },
     {
         "month": "תמוז",
+        "event": "הרב בן-ציון מאיר חי עוזיאל נבחר להיות הראשון לציון, לימים הראשון לציון הראשון במדינת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/בן-ציון_מאיר_חי_עוזיאל",
+        "subject": "בן-ציון מאיר חי עוזיאל",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "י"
+    },
+    {
+        "month": "תמוז",
         "event": "נפטר רבי צבי הירש מזידיטשוב, האדמו\"ר הראשון ומייסדה של חסידות זידיטשוב",
         "subject_url": "https://he.wikipedia.org/wiki/צבי_הירש_מזידיטשוב",
         "subject": "צבי הירש מזידיטשוב",
         "year": "ה'תקצ\"א",
         "gregorian_year": 1831,
+        "day": "יא"
+    },
+    {
+        "month": "תמוז",
+        "event": "נולדה חנה סנש , צנחנית ארץ-ישראלית שנשלחה להונגריה הכבושה בידי הנאצים, שם נתפסה, עונתה והוצאה להורג",
+        "subject_url": "https://he.wikipedia.org/wiki/חנה_סנש",
+        "subject": "חנה סנש",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "יא"
+    },
+    {
+        "month": "תמוז",
+        "event": "רעידת אדמה שמרכזה באזור יריחו בעוצמה של 6.2 בסולם ריכטר; 300 הרוגים",
+        "subject_url": "https://he.wikipedia.org/wiki/רעידת_האדמה_בארץ_ישראל_(1927)",
+        "subject": "רעידת האדמה בארץ ישראל (1927)",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
         "day": "יא"
     },
     {
@@ -3349,6 +4735,15 @@
     },
     {
         "month": "תמוז",
+        "event": "נרצח \"השומר על הסוס\", אלכסנדר זייד, על גבעות שייח' אבריק בעמק יזרעאל",
+        "subject_url": "https://he.wikipedia.org/wiki/אלכסנדר_זייד",
+        "subject": "אלכסנדר זייד",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "יב"
+    },
+    {
+        "month": "תמוז",
         "event": "נוסדה \"אחוזת בית\", ממנה התפתחה העיר תל אביב",
         "subject_url": "https://he.wikipedia.org/wiki/אחוזת_בית",
         "subject": "אחוזת בית",
@@ -3358,11 +4753,29 @@
     },
     {
         "month": "תמוז",
+        "event": "שוחרר רבי יוסף יצחק שניאורסון, האדמו\"ר השישי לבית חב\"ד, מהכלא הסובייטי, שבו נכלא בעוון הפצת היהדות",
+        "subject_url": "https://he.wikipedia.org/wiki/יוסף_יצחק_שניאורסון",
+        "subject": "יוסף יצחק שניאורסון",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
+        "day": "יג"
+    },
+    {
+        "month": "תמוז",
         "event": "נפטר רבי שמואל שאטין (מהרשש\"ך), ראש ישיבה בפרנקפורט, רבה של הסן-דרמשטאדט ומחבר \"כוס הישועות\" על תלמוד בבלי",
         "subject_url": "https://he.wikipedia.org/wiki/שמואל_שאטין",
         "subject": "שמואל שאטין",
         "year": "ה'תע\"ט",
         "gregorian_year": 1719,
+        "day": "יד"
+    },
+    {
+        "month": "תמוז",
+        "event": "נולד אליקים העצני, חבר מועצת יש\"ע וחבר הכנסת מטעם מפלגת התחיה",
+        "subject_url": "https://he.wikipedia.org/wiki/אליקים_העצני",
+        "subject": "אליקים העצני",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
         "day": "יד"
     },
     {
@@ -3457,6 +4870,15 @@
     },
     {
         "month": "תמוז",
+        "event": "נפטר חיים נחמן ביאליק, משורר שכּונה \"המשורר הלאומי\"",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_נחמן_ביאליק",
+        "subject": "חיים נחמן ביאליק",
+        "year": "ה'תרצ\"ד",
+        "gregorian_year": 1934,
+        "day": "כא"
+    },
+    {
+        "month": "תמוז",
         "event": "נפטר רבי מנוח הנדל, מחבר \"חכמת מנוח\", פרשן התלמוד ואיש אשכולות",
         "subject_url": "https://he.wikipedia.org/wiki/מנוח_הנדל",
         "subject": "מנוח הנדל",
@@ -3529,6 +4951,15 @@
     },
     {
         "month": "תמוז",
+        "event": "חבר הלאומים אישר את המנדט הבריטי על ארץ ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/המנדט_הבריטי",
+        "subject": "המנדט הבריטי",
+        "year": "ה'תרפ\"ב",
+        "gregorian_year": 1922,
+        "day": "כח"
+    },
+    {
+        "month": "תמוז",
         "event": "נפטר רש\"י, מגדולי פרשני המקרא והתלמוד",
         "subject_url": "https://he.wikipedia.org/wiki/רש\"י",
         "subject": "רש\"י",
@@ -3547,11 +4978,38 @@
     },
     {
         "month": "אב",
+        "event": "נולד ליאון יוריס, סופר יהודי אמריקני, מחבר הספר אקסודוס",
+        "subject_url": "https://he.wikipedia.org/wiki/ליאון_יוריס",
+        "subject": "ליאון יוריס",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "ג"
+    },
+    {
+        "month": "אב",
+        "event": "נולד הרב עדין שטיינזלץ, רב חסידי, חוקר ומבאר תלמוד",
+        "subject_url": "https://he.wikipedia.org/wiki/עדין_שטיינזלץ",
+        "subject": "עדין שטיינזלץ",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
+        "day": "ג"
+    },
+    {
+        "month": "אב",
         "event": "נפטר רבי מנשה מאיליה, תלמיד הגאון מווילנה, הוגה דעות וממציא",
         "subject_url": "https://he.wikipedia.org/wiki/מנשה_מאיליה",
         "subject": "מנשה מאיליה",
         "year": "ה'תקצ\"א",
         "gregorian_year": 1831,
+        "day": "ד"
+    },
+    {
+        "month": "אב",
+        "event": "נולד פרימו לוי, סופר יהודי-איטלקי וכימאי",
+        "subject_url": "https://he.wikipedia.org/wiki/פרימו_לוי",
+        "subject": "פרימו לוי",
+        "year": "ה'תרע\"ט",
+        "gregorian_year": 1919,
         "day": "ד"
     },
     {
@@ -3571,6 +5029,15 @@
         "year": "ה'תע\"ו",
         "gregorian_year": 1716,
         "day": "ה"
+    },
+    {
+        "month": "אב",
+        "event": "נפטר הרב שלמה זלמן בּרוֹיֶאר, רבה של קהילת עדת ישורון בפרנקפורט. ממנהיגי היהדות האורתודוקסית במערב אירופה, חתנו וממשיך דרכו של רש\"ר הירש ואבי משפחת ברויאר, חבר מועצת גדולי התורה של אגודת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/שלמה_זלמן_ברויאר",
+        "subject": "שלמה זלמן ברויאר",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
+        "day": "ו"
     },
     {
         "month": "אב",
@@ -3601,6 +5068,15 @@
     },
     {
         "month": "אב",
+        "event": "נוסדה הסוכנות היהודית",
+        "subject_url": "https://he.wikipedia.org/wiki/הסוכנות_היהודית",
+        "subject": "הסוכנות היהודית",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "ח"
+    },
+    {
+        "month": "אב",
         "event": "חורבן בית המקדש הראשון, ג'תת\"ל – חורבן בית המקדש השני",
         "subject_url": "https://he.wikipedia.org/wiki/בית_המקדש_הראשון",
         "subject": "בית המקדש הראשון",
@@ -3619,11 +5095,29 @@
     },
     {
         "month": "אב",
+        "event": "נולד המשורר נתן אלתרמן",
+        "subject_url": "https://he.wikipedia.org/wiki/נתן_אלתרמן",
+        "subject": "נתן אלתרמן",
+        "year": "ה'תר\"ע",
+        "gregorian_year": 1910,
+        "day": "ט"
+    },
+    {
+        "month": "אב",
         "event": "מייסדי המושבה ראשון לציון עלו על הקרקע",
         "subject_url": "https://he.wikipedia.org/wiki/ראשון_לציון",
         "subject": "ראשון לציון",
         "year": "ה'תרמ\"ב",
         "gregorian_year": 1882,
+        "day": "טו"
+    },
+    {
+        "month": "אב",
+        "event": "הונחה אבן הפינה לאוניברסיטה העברית בירושלים",
+        "subject_url": "https://he.wikipedia.org/wiki/האוניברסיטה_העברית_בירושלים",
+        "subject": "האוניברסיטה העברית בירושלים",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
         "day": "טו"
     },
     {
@@ -3673,11 +5167,47 @@
     },
     {
         "month": "אב",
+        "event": "נוסדה המושבה מגדיאל",
+        "subject_url": "https://he.wikipedia.org/wiki/מגדיאל",
+        "subject": "מגדיאל",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "יב"
+    },
+    {
+        "month": "אב",
+        "event": "נולד הרב זלמן ברוך מלמד, פוסק הלכה, ראש ישיבת בית אל ורב שכונה ב' בבית אל",
+        "subject_url": "https://he.wikipedia.org/wiki/זלמן_ברוך_מלמד",
+        "subject": "זלמן ברוך מלמד",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
+        "day": "יב"
+    },
+    {
+        "month": "אב",
+        "event": "נולד הרב משה מאיה, חבר מועצת חכמי התורה של מפלגת ש\"ס וחבר הכנסת מטעם ש\"ס",
+        "subject_url": "https://he.wikipedia.org/wiki/משה_מאיה",
+        "subject": "משה מאיה",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "יב"
+    },
+    {
+        "month": "אב",
         "event": "נפטר רבי מרדכי בנט (מהר\"ם בנט), רבה של ניקלשבורג וחבל מורביה",
         "subject_url": "https://he.wikipedia.org/wiki/מרדכי_בנט",
         "subject": "מרדכי בנט",
         "year": "ה'תקפ\"ט",
         "gregorian_year": 1829,
+        "day": "יג"
+    },
+    {
+        "month": "אב",
+        "event": "נולד מנחם בגין , ראש הממשלה השישי של מדינת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/מנחם_בגין",
+        "subject": "מנחם בגין",
+        "year": "ה'תרע\"ג",
+        "gregorian_year": 1913,
         "day": "יג"
     },
     {
@@ -3700,11 +5230,38 @@
     },
     {
         "month": "אב",
+        "event": "תחילת מאורעות תרפ\"ט – המון רב של מוסלמים חמושים בסכינים יוצא משער שכם ומסתער על השכונות היהודיות בירושלים, 19 יהודים נרצחים",
+        "subject_url": "https://he.wikipedia.org/wiki/מאורעות_תרפ\"ט",
+        "subject": "מאורעות תרפ\"ט",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
+        "day": "יז"
+    },
+    {
+        "month": "אב",
         "event": "נולד הסופר הישראלי שמואל יוסף עגנון , חתן פרס נובל לספרות",
         "subject_url": "https://he.wikipedia.org/wiki/שמואל_יוסף_עגנון",
         "subject": "שמואל יוסף עגנון",
         "year": "ה'תרמ\"ז",
         "gregorian_year": 1887,
+        "day": "יח"
+    },
+    {
+        "month": "אב",
+        "event": "נולד הרב נסים קרליץ, מבכירי פוסקי ההלכה בציבור החרדי",
+        "subject_url": "https://he.wikipedia.org/wiki/נסים_קרליץ",
+        "subject": "נסים קרליץ",
+        "year": "ה'תרפ\"ו",
+        "gregorian_year": 1926,
+        "day": "יח"
+    },
+    {
+        "month": "אב",
+        "event": "שיאם של מאורעות תרפ\"ט: המאורעות מגיעים לחברון, שם נרצחו 67 יהודים וכל רכושם נבזז",
+        "subject_url": "https://he.wikipedia.org/wiki/מאורעות_תרפ\"ט",
+        "subject": "מאורעות תרפ\"ט",
+        "year": "ה'תרפ\"ט",
+        "gregorian_year": 1929,
         "day": "יח"
     },
     {
@@ -3715,6 +5272,33 @@
         "year": "ה'תרל\"ה",
         "gregorian_year": 1875,
         "day": "יט"
+    },
+    {
+        "month": "אב",
+        "event": "נולד שמעון פרס , ראש ממשלת ישראל השמיני והנשיא התשיעי",
+        "subject_url": "https://he.wikipedia.org/wiki/שמעון_פרס",
+        "subject": "שמעון פרס",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
+        "day": "כ"
+    },
+    {
+        "month": "אב",
+        "event": "היישוב בית יהושע עולה על הקרקע במבצע \"חומה ומגדל\"",
+        "subject_url": "https://he.wikipedia.org/wiki/בית_יהושע",
+        "subject": "בית יהושע",
+        "year": "ה'תרצ\"ח",
+        "gregorian_year": 1938,
+        "day": "כ"
+    },
+    {
+        "month": "אב",
+        "event": "נפטר רבי חיים סולובייצ'יק , מגדולי הדמויות הרבניות במאה ה-20 ואבי שיטת בריסק בלימוד התורני",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_סולובייצ'יק",
+        "subject": "חיים סולובייצ'יק",
+        "year": "ה'תרע\"ח",
+        "gregorian_year": 1918,
+        "day": "כא"
     },
     {
         "month": "אב",
@@ -3742,6 +5326,24 @@
         "year": "ה'תקל\"א",
         "gregorian_year": 1771,
         "day": "כב"
+    },
+    {
+        "month": "אב",
+        "event": "נולד אפרים קישון, סופר, סאטיריקן, מחזאי וקולנוען ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/אפרים_קישון",
+        "subject": "אפרים קישון",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "כג"
+    },
+    {
+        "month": "אב",
+        "event": "נולד מאיר שמגר, לימים נשיא בית המשפט העליון",
+        "subject_url": "https://he.wikipedia.org/wiki/מאיר_שמגר",
+        "subject": "מאיר שמגר",
+        "year": "ה'תרפ\"ה",
+        "gregorian_year": 1925,
+        "day": "כג"
     },
     {
         "month": "אב",
@@ -3786,6 +5388,15 @@
         "subject": "נפתלי צבי יהודה ברלין",
         "year": "ה'תרנ\"ג",
         "gregorian_year": 1893,
+        "day": "כח"
+    },
+    {
+        "month": "אב",
+        "event": "נולד דן שומרון, הרמטכ\"ל ה-13 של צה\"ל",
+        "subject_url": "https://he.wikipedia.org/wiki/דן_שומרון",
+        "subject": "דן שומרון",
+        "year": "ה'תרצ\"ז",
+        "gregorian_year": 1937,
         "day": "כח"
     },
     {
@@ -3853,6 +5464,15 @@
     },
     {
         "month": "אלול",
+        "event": "נפטר הרב אברהם יצחק הכהן קוק , הרב הראשי לארץ ישראל וראש ישיבת מרכז הרב",
+        "subject_url": "https://he.wikipedia.org/wiki/אברהם_יצחק_הכהן_קוק",
+        "subject": "אברהם יצחק הכהן קוק",
+        "year": "ה'תרצ\"ה",
+        "gregorian_year": 1935,
+        "day": "ג"
+    },
+    {
+        "month": "אלול",
         "event": "גזירות קנ\"א – פרעות נגד היהודים בטולדו ובברצלונה; יהודים רבים עוזבים",
         "subject_url": "https://he.wikipedia.org/wiki/גזירות_קנ\"א",
         "subject": "גזירות קנ\"א",
@@ -3907,6 +5527,42 @@
     },
     {
         "month": "אלול",
+        "event": "בחירת דוד בן-גוריון ליו\"ר ההנהלה הציונית והסוכנות היהודית",
+        "subject_url": "https://he.wikipedia.org/wiki/דוד_בן-גוריון",
+        "subject": "דוד בן-גוריון",
+        "year": "ה'תרצ\"ה",
+        "gregorian_year": 1935,
+        "day": "ו"
+    },
+    {
+        "month": "אלול",
+        "event": "המון אנטישמי זועם באטלנטה שבג'ורג'יה מבצע לינץ' בליאו פרנק, יהודי אמריקאי שהואשם ברצח נערה בת 14",
+        "subject_url": "https://he.wikipedia.org/wiki/ליאו_פרנק",
+        "subject": "ליאו פרנק",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "ז"
+    },
+    {
+        "month": "אלול",
+        "event": "נפטר נחמן סירקין, מאבות הציונות הסוציאליסטית ומראשי \"פועלי ציון\" בגולה",
+        "subject_url": "https://he.wikipedia.org/wiki/נחמן_סירקין",
+        "subject": "נחמן סירקין",
+        "year": "ה'תרפ\"ד",
+        "gregorian_year": 1924,
+        "day": "ז"
+    },
+    {
+        "month": "אלול",
+        "event": "אוניית המעפילים \"פאריטה\" של בית\"ר אצ\"ל עם 856 נוסעים הגיעה לחוף תל אביב",
+        "subject_url": "https://he.wikipedia.org/wiki/פאריטה",
+        "subject": "פאריטה",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "ז"
+    },
+    {
+        "month": "אלול",
         "event": "העיר העליונה של ירושלים נחרבה על ידי הרומאים, חודש לאחר חורבן בית שני",
         "subject_url": "https://he.wikipedia.org/wiki/העיר_העליונה",
         "subject": "העיר העליונה",
@@ -3925,11 +5581,29 @@
     },
     {
         "month": "אלול",
+        "event": "נוסד המושב נהלל , מושב העובדים הראשון בארץ",
+        "subject_url": "https://he.wikipedia.org/wiki/נהלל",
+        "subject": "נהלל",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "ח"
+    },
+    {
+        "month": "אלול",
         "event": "הרמב\"ן, עולה לארץ ישראל ומחדש את היישוב היהודי בירושלים",
         "subject_url": "https://he.wikipedia.org/wiki/רמב\"ן",
         "subject": "רמב\"ן",
         "year": "ה'כ\"ז",
         "gregorian_year": 1267,
+        "day": "ט"
+    },
+    {
+        "month": "אלול",
+        "event": "ההכרזה על לימוד הדף היומי, על ידי הרב מאיר שפירא מלובלין, בכנסייה הגדולה של אגודת ישראל",
+        "subject_url": "https://he.wikipedia.org/wiki/הדף_היומי",
+        "subject": "הדף היומי",
+        "year": "ה'תרפ\"ג",
+        "gregorian_year": 1923,
         "day": "ט"
     },
     {
@@ -3961,6 +5635,15 @@
     },
     {
         "month": "אלול",
+        "event": "נפטר הרב יצחק יעקב ריינס, מייסד תנועת המזרחי",
+        "subject_url": "https://he.wikipedia.org/wiki/יצחק_יעקב_ריינס",
+        "subject": "יצחק יעקב ריינס",
+        "year": "ה'תרע\"ה",
+        "gregorian_year": 1915,
+        "day": "י"
+    },
+    {
+        "month": "אלול",
         "event": "נפטר רבי אברהם יעקב פרידמן",
         "subject_url": "https://he.wikipedia.org/wiki/אברהם_יעקב_פרידמן_(הראשון)",
         "subject": "אברהם יעקב פרידמן (הראשון)",
@@ -3975,6 +5658,15 @@
         "subject": "גדוד העבודה",
         "year": "ה'תר\"ף",
         "gregorian_year": 1840,
+        "day": "יא"
+    },
+    {
+        "month": "אלול",
+        "event": "נולד חיים טופול, שחקן ישראלי",
+        "subject_url": "https://he.wikipedia.org/wiki/חיים_טופול",
+        "subject": "חיים טופול",
+        "year": "ה'תרצ\"ה",
+        "gregorian_year": 1935,
         "day": "יא"
     },
     {
@@ -4033,6 +5725,15 @@
     },
     {
         "month": "אלול",
+        "event": "יום פרוץ מלחמת העולם השנייה, כאשר גרמניה הנאצית פולשת לפולין",
+        "subject_url": "https://he.wikipedia.org/wiki/מלחמת_העולם_השנייה",
+        "subject": "מלחמת העולם השנייה",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
+        "day": "יז"
+    },
+    {
+        "month": "אלול",
         "event": "שמעון התרסי מבית חשמונאי התמנה לכהן גדול, מפקד הצבא ונשיא",
         "subject_url": "https://he.wikipedia.org/wiki/שמעון_התרסי",
         "subject": "שמעון התרסי",
@@ -4069,11 +5770,29 @@
     },
     {
         "month": "אלול",
+        "event": "קיבוץ עין חרוד מוקם על ידי גדוד העבודה",
+        "subject_url": "https://he.wikipedia.org/wiki/עין_חרוד",
+        "subject": "עין חרוד",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
+        "day": "יח"
+    },
+    {
+        "month": "אלול",
         "event": "נפטר רבי חיים בנבנישתי, (תלמיד המהרימ\"ט) מחבר הספר \"כנסת הגדולה\"",
         "subject_url": "https://he.wikipedia.org/wiki/חיים_בנבנישתי",
         "subject": "חיים בנבנישתי",
         "year": "ה'תל\"ג",
         "gregorian_year": 1673,
+        "day": "יט"
+    },
+    {
+        "month": "אלול",
+        "event": "קיבוץ עין חרוד מוקם על ידי גדוד העבודה",
+        "subject_url": "https://he.wikipedia.org/wiki/עין_חרוד",
+        "subject": "עין חרוד",
+        "year": "ה'תרפ\"א",
+        "gregorian_year": 1921,
         "day": "יט"
     },
     {
@@ -4105,6 +5824,15 @@
     },
     {
         "month": "אלול",
+        "event": "נוסד שדה יעקב, המושב הראשון של תנועת הפועל המזרחי",
+        "subject_url": "https://he.wikipedia.org/wiki/שדה_יעקב",
+        "subject": "שדה יעקב",
+        "year": "ה'תרפ\"ז",
+        "gregorian_year": 1927,
+        "day": "כב"
+    },
+    {
+        "month": "אלול",
         "event": "גזירות קנ\"א – טבח ביהודי פלמה דה מיורקה",
         "subject_url": "https://he.wikipedia.org/wiki/פלמה_דה_מיורקה",
         "subject": "פלמה דה מיורקה",
@@ -4132,11 +5860,38 @@
     },
     {
         "month": "אלול",
+        "event": "נפטר דוד וולפסון, עסקן ציוני ונשיאה השני של ההסתדרות הציונית העולמית",
+        "subject_url": "https://he.wikipedia.org/wiki/דוד_וולפסון",
+        "subject": "דוד וולפסון",
+        "year": "ה'תרע\"ד",
+        "gregorian_year": 1914,
+        "day": "כד"
+    },
+    {
+        "month": "אלול",
+        "event": "נפטר רבי ישראל מאיר הכהן מראדין, מחבר המשנה ברורה והחפץ חיים\"",
+        "subject_url": "https://he.wikipedia.org/wiki/ישראל_מאיר_הכהן",
+        "subject": "ישראל מאיר הכהן",
+        "year": "ה'תרצ\"ג",
+        "gregorian_year": 1933,
+        "day": "כד"
+    },
+    {
+        "month": "אלול",
         "event": "נפטר המגיד מזלוטשוב, מתלמידי הבעש\"ט.",
         "subject_url": "https://he.wikipedia.org/wiki/המגיד_מזלוטשוב",
         "subject": "המגיד מזלוטשוב",
         "year": "ה'תקמ\"ו",
         "gregorian_year": 1786,
+        "day": "כה"
+    },
+    {
+        "month": "אלול",
+        "event": "נולד ראובן ריבלין, נשיאה ה-10 של מדינת ישראל.",
+        "subject_url": "https://he.wikipedia.org/wiki/ראובן_ריבלין",
+        "subject": "ראובן ריבלין",
+        "year": "ה'תרצ\"ט",
+        "gregorian_year": 1939,
         "day": "כה"
     },
     {

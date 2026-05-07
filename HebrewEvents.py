@@ -136,7 +136,7 @@ def save_events_to_file(events, filename='hebrew_events.json'):
                 day = day.replace('"', '').replace("'", "")  # Remove " and ' characters
                 event['day'] = day
                 del event['date']  # Remove the original 'date' field
-                if gregorian_year > -600 and gregorian_year < 1910:  # Filter out events outside this range
+                if gregorian_year > -600 and gregorian_year < 1940:  # Filter out events outside this range
                     filtered_events.append(event)
 
         with open(filename, 'w', encoding='utf-8') as f:
