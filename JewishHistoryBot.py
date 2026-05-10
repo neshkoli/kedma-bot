@@ -290,10 +290,13 @@ def main():
 
     post = format_post(event, hebrew_day, hebrew_month, summary['summary'])
     bot = TelegramBot(os.getenv('TELEGRAM_BOT_TOKEN'))
-    
-    # if bot.send_message(TELEGRAM_CHANNEL, post):
-    #     logging.info("Post published successfully")
-    
+
+    result = bot.send_message(TELEGRAM_CHANNEL, post)
+    if result.get('ok'):
+        logging.info("Post published successfully")
+    else:
+        logging.error("Failed to publish post to Telegram")
+
     # Save outputs
     with open('post.md', 'w', encoding='utf-8') as f:
         f.write(post)
