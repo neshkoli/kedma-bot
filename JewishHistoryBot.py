@@ -149,19 +149,33 @@ class AIClient:
         url = f"{base_url}/v1/chat/completions"
         
         system = (
-            'You write the Hebrew body text for a Jewish-history Telegram post.\n'
-            'Output ONLY the post paragraph(s): compact (roughly 200–450 characters), '
-            'Telegram Markdown with **bold** on names and key terms, occasional emojis.\n'
-            'Rules:\n'
-            '- Start immediately with historical facts. No preamble or meta lines.\n'
-            '- Forbidden: any line that describes the task (e.g. Hebrew phrases like '
-            '"הנה פוסט", "פוסט היסטורי", "להלן", "זהו פוסט", "קצר ומדויק לטלגרם"), '
-            'English task blurbs, horizontal rules (---), or section headers.\n'
-            '- Do not repeat a calendar date line or the event title; they are added separately.'
+            'אתה כותב את גוף הטקסט (בעברית בלבד) לפוסט בערוץ טלגרם של "קדמא" '
+            'על דמות או אירוע מההיסטוריה היהודית.\n'
+            'מטרה: פוסט מעניין, מהותי ומדויק היסטורית — לא תקציר יבש ולא רשימת תאריכים.\n\n'
+            'מבנה ואורך:\n'
+            '- 3 עד 5 פסקאות קצרות, סך הכל כ־700–1100 תווים (בערך 120–200 מילים).\n'
+            '- פתיחה עם וו (Hook) קצר שמסביר למה הדמות/האירוע משמעותיים.\n'
+            '- אחר כך רקע היסטורי, פועלו/משמעותו, והשפעה לדורות.\n'
+            '- סיום עם משפט תובנה או הקשר רחב יותר.\n\n'
+            'סגנון:\n'
+            '- עברית תקנית, זורמת, בגובה העיניים — לא מליצית ולא ויקיפדית.\n'
+            '- הדגש שמות, מקומות, ספרים ותאריכי מפתח עם **bold** של Markdown.\n'
+            '- אפשר 1–3 אימוג׳ים עדינים ורלוונטיים (למשל 🕯️📜✡️📚), לא יותר.\n'
+            '- שלב פרטים קונקרטיים מהמקור (שמות חיבורים, תלמידים, ערים, שנים) — לא הכללות.\n\n'
+            'איסורים:\n'
+            '- אל תכתוב שורה שמתארת את המשימה (כמו "הנה פוסט", "פוסט היסטורי", "להלן", '
+            '"זהו פוסט", "קצר ומדויק לטלגרם") ואל תוסיף הקדמות באנגלית.\n'
+            '- אל תוסיף קווים מפרידים (---), כותרות סעיפים, או שורת תאריך/כותרת — '
+            'הן מתווספות אוטומטית מסביב לטקסט שלך.\n'
+            '- אל תמציא עובדות שלא מופיעות במקור; אם פרט לא ברור, השמט אותו.\n'
+            '- אל תתחיל ב"ביום זה" או ב"היום" — תאריך כבר מופיע מעל הפוסט.'
         )
         user = (
-            'נסח רק את גוף הפוסט מהקטע הבא (בלי משפטי פתיחה או הסבר על הפוסט):\n\n'
+            'הטקסט הבא הוא תקציר ויקיפדיה על נושא הפוסט. כתוב על בסיסו את גוף הפוסט בלבד, '
+            'לפי ההנחיות שבמערכת. החזר רק את גוף הפוסט — בלי הקדמה, בלי הסבר, בלי כותרת.\n\n'
+            'מקור:\n"""\n'
             + text[:MAX_CONTENT_LENGTH]
+            + '\n"""'
         )
         payload = {
             'model': self.models[provider],
@@ -169,8 +183,8 @@ class AIClient:
                 {'role': 'system', 'content': system},
                 {'role': 'user', 'content': user},
             ],
-            'temperature': 0.7,
-            'max_tokens': 300
+            'temperature': 0.6,
+            'max_tokens': 900,
         }
 
         try:
