@@ -2,8 +2,10 @@ name: Create post
 
 on:
   schedule:
-    # This runs at 07:00 IL Sun-Fri
+    # Primary run at 07:00 IL Sun-Fri
     - cron: '0 4 * * 0-5'
+    # Retry an hour later in case the primary run hit a transient failure
+    - cron: '0 5 * * 0-5'
 
   # Optional: Allow manual trigger
   workflow_dispatch:
@@ -11,27 +13,64 @@ on:
 jobs:
   run-api-script:
     runs-on: ubuntu-latest
-    
+    permissions:
+      actions: read
+    env:
+      PYTHONUNBUFFERED: "1"
+
     steps:
+    - name: Skip retry if today already succeeded
+      id: dedupe
+      if: github.event.schedule == '0 5 * * 0-5'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        today=$(date -u +%Y-%m-%d)
+        count=$(gh run list \
+          --workflow "${{ github.workflow }}" \
+          --repo "${{ github.repository }}" \
+          --status success \
+          --created "$today" \
+          --limit 5 \
+          --json databaseId --jq 'length')
+        if [ "$count" -gt 0 ]; then
+          echo "A successful run already exists for $today; skipping retry."
+          echo "skip=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "No successful run for $today yet; proceeding."
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Checkout repository
+      if: steps.dedupe.outputs.skip != 'true'
       uses: actions/checkout@v6
 
     - name: Set up Python
+      if: steps.dedupe.outputs.skip != 'true'
       uses: actions/setup-python@v6
       with:
         python-version: '3.10'
         cache: 'pip'
-    
+
     - name: Install dependencies
+      if: steps.dedupe.outputs.skip != 'true'
       run: |
         pip install -r requirements.txt
-    
+
     - name: Run Python Script
+      if: steps.dedupe.outputs.skip != 'true'
       env:
-        # Add any API keys or sensitive credentials as environment variables
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: | 
-        python JewishHistoryBot.py
-        cat post.md >> $GITHUB_STEP_SUMMARY
+      run: |
+        python -u JewishHistoryBot.py
+
+    - name: Append post to job summary
+      if: always() && steps.dedupe.outputs.skip != 'true'
+      run: |
+        if [ -f post.md ]; then
+          cat post.md >> "$GITHUB_STEP_SUMMARY"
+        else
+          echo "No post produced for $(date -u +%Y-%m-%d)." >> "$GITHUB_STEP_SUMMARY"
+        fi

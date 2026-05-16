@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from convertdate import hebrew
 import urllib3
 import sys
-import logging
+import time
 
 # Configure logging for GitHub Actions
 logging.basicConfig(
@@ -35,15 +35,11 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 API_TIMEOUT = 30
 MAX_CONTENT_LENGTH = 4000  # Truncate long Wikipedia content
 REQUEST_RETRIES = 2
+AI_RETRY_ATTEMPTS = 3
+AI_RETRY_BACKOFF = 2
 HEBREW_EVENTS_FILE = "hebrew_events.json"
 TELEGRAM_CHANNEL = "@kedmachat"
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.StreamHandler()]
-)
 
 class HTTPSession:
     """Shared HTTP session with retries and common headers"""
@@ -53,7 +49,6 @@ class HTTPSession:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
             'Accept-Language': 'en-US,en;q=0.9',
         })
-        self.session.verify = False  # Disable SSL verification
 
 class TelegramBot:
     def __init__(self, token: str):
@@ -91,20 +86,20 @@ class WikipediaClient:
             response = self.http.get(url, timeout=API_TIMEOUT)
             response.encoding = 'utf-8'
             response.raise_for_status()
-            
+
             soup = BeautifulSoup(response.text, 'html.parser')
             content_div = soup.find('div', {'class': 'mw-parser-output'})
-            
+
             if not content_div:
                 raise ValueError("Wikipedia content structure changed")
-            
+
             # Extract relevant content elements
             elements = content_div.find_all(['p', 'h2', 'h3'])
             cleaned_elements = [self._clean_element(e) for e in elements[:10]]  # First 10 elements
             return ' '.join(filter(None, cleaned_elements))
-        
+
         except Exception as e:
-            logging.error(f"Wikipedia fetch failed: {str(e)}")
+            logging.error(f"Wikipedia fetch failed for {url}: {str(e)}")
             return ""
 
     def _clean_element(self, element) -> str:
@@ -187,25 +182,38 @@ class AIClient:
             'max_tokens': 900,
         }
 
-        try:
-            response = self.http.post(
-                url,
-                headers={'Authorization': f'Bearer {api_key}'},
-                json=payload,
-                timeout=API_TIMEOUT
-            )
-            response.raise_for_status()
-            data = response.json()
+        last_error: Optional[Exception] = None
+        for attempt in range(1, AI_RETRY_ATTEMPTS + 1):
+            try:
+                response = self.http.post(
+                    url,
+                    headers={'Authorization': f'Bearer {api_key}'},
+                    json=payload,
+                    timeout=API_TIMEOUT
+                )
+                response.raise_for_status()
+                data = response.json()
 
-            return {
-                'summary': data['choices'][0]['message']['content'],
-                'ai': provider,
-                'model': self.models[provider],
-                'tokens_used': data.get('usage', {}).get('total_tokens', 0)
-            }
-        except Exception as e:
-            logging.warning(f"{provider.capitalize()} API failed: {str(e)}")
-            return {}
+                return {
+                    'summary': data['choices'][0]['message']['content'],
+                    'ai': provider,
+                    'model': self.models[provider],
+                    'tokens_used': data.get('usage', {}).get('total_tokens', 0)
+                }
+            except Exception as e:
+                last_error = e
+                status = getattr(getattr(e, 'response', None), 'status_code', None)
+                transient = status is None or status >= 500 or status == 429
+                logging.warning(
+                    f"{provider.capitalize()} API failed (attempt {attempt}/{AI_RETRY_ATTEMPTS}, "
+                    f"status={status}): {str(e)}"
+                )
+                if not transient or attempt == AI_RETRY_ATTEMPTS:
+                    break
+                time.sleep(AI_RETRY_BACKOFF ** attempt)
+
+        logging.warning(f"{provider.capitalize()} giving up: {last_error}")
+        return {}
 
     def _preprocess_content(self, text: str) -> str:
         """Clean and format content before sending to AI"""
@@ -265,59 +273,83 @@ def select_event(events: List[Dict[str, Any]], day: str, month: str) -> Optional
     candidates = [e for e in events if e['day'] == day and e['month'] == month]
     return random.choice(candidates) if candidates else None
 
-def format_post(event: Dict[str, Any], day: str, month: str, summary: str) -> str:
+def select_fallback_event(events: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """Pick any event from the archive when today's date has no match."""
+    return random.choice(events) if events else None
+
+def format_post(event: Dict[str, Any], day: str, month: str, summary: str, from_archive: bool = False) -> str:
     """Format final Telegram post"""
     post = re.sub(r'^#+\s*(.+)$', r'*\1*', summary, flags=re.MULTILINE)
+    header = f"*היום {day} {month}*"
+    if from_archive:
+        header += "  ·  _מתוך ארכיון קדמא_"
     return (
-        f"*היום {day} {month}*\n\n"
+        f"{header}\n\n"
         f"*{event['event']}*\n\n"
         f"{post}\n\n"
         f"[למידע נוסף]({event['subject_url']})\n\n"
         "_בוט ה AI של קדמא_"
     )
 
-def main():
-    log_group("Initializing Script")
+def run() -> None:
     if not validate_environment():
-        return
+        sys.exit(1)
 
     date = datetime.now()
     hebrew_day, hebrew_month = get_hebrew_date(date)
-    
-    if not (events := load_events()):
-        return
-    
-    if not (event := select_event(events, hebrew_day, hebrew_month)):
-        logging.warning(f"No events found for {hebrew_day} {hebrew_month}")
-        return
+
+    events = load_events()
+    if not events:
+        logging.error("No events loaded from data file")
+        sys.exit(1)
+
+    from_archive = False
+    event = select_event(events, hebrew_day, hebrew_month)
+    if not event:
+        logging.warning(
+            f"No events for {hebrew_day} {hebrew_month}; falling back to archive."
+        )
+        event = select_fallback_event(events)
+        from_archive = True
+        if not event:
+            logging.error("Archive is empty; cannot pick fallback event")
+            sys.exit(1)
 
     wiki = WikipediaClient()
-    if not (content := wiki.fetch_content(event['subject_url'])):
-        return
+    content = wiki.fetch_content(event['subject_url'])
+    if not content:
+        logging.error(f"Wikipedia returned empty content for {event['subject_url']}")
+        sys.exit(1)
 
     ai = AIClient()
     summary = ai.summarize(content)
-    
     if not summary.get('summary'):
-        logging.error("Failed to generate summary")
-        return
+        logging.error("Failed to generate AI summary (all providers exhausted)")
+        sys.exit(1)
 
-    post = format_post(event, hebrew_day, hebrew_month, summary['summary'])
-    bot = TelegramBot(os.getenv('TELEGRAM_BOT_TOKEN'))
+    post = format_post(event, hebrew_day, hebrew_month, summary['summary'], from_archive)
 
-    result = bot.send_message(TELEGRAM_CHANNEL, post)
-    if result.get('ok'):
-        logging.info("Post published successfully")
-    else:
-        logging.error("Failed to publish post to Telegram")
-
-    # Save outputs
     with open('post.md', 'w', encoding='utf-8') as f:
         f.write(post)
-    
-    logging.info(f"Summary generated using {summary['ai']} ({summary['model']})")
-    log_end_group()
-    
+
+    bot = TelegramBot(os.getenv('TELEGRAM_BOT_TOKEN'))
+    result = bot.send_message(TELEGRAM_CHANNEL, post)
+    if not result.get('ok'):
+        logging.error(f"Failed to publish post to Telegram: {result}")
+        sys.exit(1)
+
+    logging.info(
+        f"Post published successfully (archive={from_archive}, "
+        f"ai={summary['ai']}, model={summary['model']})"
+    )
+
+def main():
+    log_group("Initializing Script")
+    try:
+        run()
+    finally:
+        log_end_group()
+
 if __name__ == "__main__":
     main()
 
